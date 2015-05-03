@@ -1,0 +1,30 @@
+@import '_settings'
+@import 'jeet'
+
+normalize-css()
+base()
+edit()
+
+img
+  max-width 100% 
+
+#container
+  center(960px)
+  
+  .sidebar
+    col(1/3)
+    transition: all .5s ease
+    
+    +below(600px)
+      stack()
+    
+      ul
+        inline-list: 10px
+        center(200px)
+        
+  .main
+    col(2/3)
+    transition: all .5s ease
+    
+    +below(600px)
+      stack()
