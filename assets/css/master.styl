@@ -7,24 +7,43 @@ edit()
 
 img
   max-width 100% 
+  
+p
+  paragraph()
 
 #container
-  center(960px)
+  center(3000px, 1em)
+  
+  .contained
+    position relative
+    col(1)
+    // min-height 10em 
+    
+  .logo
+    text-align center
+    padding-top 3em
+    padding-bottom 3em  
+    // align(both)
   
   .sidebar
-    col(1/3)
+    stack()
     transition: all .5s ease
     
     +below(600px)
-      stack()
-    
       ul
         inline-list: 10px
         center(200px)
+    
+    +above(600px)
+      unstack()
+      col(1/2)
+    
+      
         
   .main
-    col(2/3)
+    stack()
     transition: all .5s ease
     
-    +below(600px)
-      stack()
+    +above(600px)
+      unstack()
+      col(1/2)
