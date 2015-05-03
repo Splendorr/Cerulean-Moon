@@ -6,7 +6,7 @@ css_pipeline = require 'css-pipeline'
 jeet         = require 'jeet'
 
 module.exports =
-  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
+  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf', 'wipCeruleanMoon/**']
 
   extensions: [
     js_pipeline(files: 'assets/js/*.coffee', out: 'js/build.js', minify: true, hash: true),

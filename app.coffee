@@ -7,6 +7,7 @@ jeet         = require 'jeet'
 
 module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
+  ignore_folders: ['wipCeruleanMoon']
 
   extensions: [
     js_pipeline(files: 'assets/js/*.coffee'),
