@@ -13,11 +13,23 @@ $container = {
 };
 $grid = {
   ".third": {
-    width: 1 1/2 null 1/3
+    width: 1 .5 null 1/3
+    // gutter-left: false
+    // gutter-right: false
+    // width: .95 .45 null .3
+  }
+  ".nachobeard": {
+    width: .8 .45 null .2
+    offset-left: .1 .275 null .4
+    offset-only: true
   }
 };
 
 @import "_rebar";
+
+.third
+  // padding 0 !important
+  // padding-left 0 !important
 
 // VARIABLES
 
@@ -190,13 +202,12 @@ a
 // STRUCTURE
   
 .topmost
-  position relative
+  // position relative
   // min-height 10em
     
 .sidepadding
-  padding-left 1em
-  padding-right 1em
-  // center(900px, 1em)
+  // padding-left 1em
+  // padding-right 1em
   
 .logo
   text-align center
@@ -250,4 +261,26 @@ a
   margin 0 auto
   animation: wake 2s steps(29);
   transform scale(2)
+  // -webkit-animation-fill-mode: forwards;
+
+@keyframes wake4x {
+    from { background-position: 0px 0px; }
+    to { background-position: -7424px 0px; }
+}
+
+@keyframes stand4x {
+    from { background-position: 0px -256px; }
+    to { background-position: -4864px -256px; }
+}
+
+.ranWake4x
+  height 256px
+  width 256px
+  background-position -7424px 0px
+  background url("/img/mainCharacter_waking_standing_4x.png") 0 0 no-repeat;
+  margin 0 auto
+  // position absolute 
+  // animation: wake4x 2s steps(29) 1;
+  animation: wake4x 2s steps(29) 1, stand4x 2s steps(19) 2.1s infinite;
+  // animation: stand4x 2s steps(19) infinite;
   // -webkit-animation-fill-mode: forwards;
