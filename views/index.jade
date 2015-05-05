@@ -1,22 +1,24 @@
 extends layout
 
 block content
-  #container
-    .contained
-      .logo
-        h1 CERULEAN MOON
-        h3 a game by nacho
-    .sidebar
-      ul
-        li
-          a(href="#") navigation 1
-        li
-          a(href="#") navigation 2
-        li
-          a(href="#") navigation 3
+  #container.padbottom4em
+    .topmost
+      .boxPlatform.martop1em
+        .logo
+          h1 CERULEAN MOON
+          h3 a game by nacho beard
+    
+    .sidepadding
+      .leftbox.martop1em
+        .boxBGgrey1
+          :markdown
+            CERULEAN MOON is the first precise platformer for touchscreens. Slide the world.
 
-    .main
-      :markdown
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quibusdam adipisci cum voluptatum, incidunt animi corrupti, error culpa minima in atque rerum enim dolor corporis cupiditate quod earum, fuga vel.
+      .video.martop1em
+        .tall-flex-video
+          iframe(width="480", height="360", src="https://www.youtube.com/embed/WZfIJgGcDic?rel=0", frameborder="0", allowfullscreen="")
 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus itaque dolores neque nisi veniam, dolorem iste consequuntur voluptatem, odio consequatur esse cumque autem cupiditate minus doloremque dolor, quas. Optio, distinctio.
+      .main.martop1em
+        .boxBGgrey1
+          :markdown
+            Design & Code by [Nacho Beard](http://blog.nachobeard.com), Art by [Anaïs Maamar](http://anais-maamar.tumblr.com/), Art & Animation by [Clairvoire](http://clairvoire.tumblr.com/)

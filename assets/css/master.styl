@@ -5,16 +5,133 @@ normalize-css()
 base()
 // edit()
 
-img
-  max-width 100% 
+/* 
+VARIABLES 
+*/
+
+// Rupture scale
+scale = 0 90em 120em 150em 180em
+
+BGgrey1dark      = #1B2D36
+BGgrey1details   = #152127
+BGgrey1highlight = #243A40
+BGgrey1mosslight = #225F4B
+BGgrey1mossdark  = #134032
+
+BGgrey2light     = #243A40
+BGgrey2highlight = #3D5A5C
+
+platSurfaceGrey  = #ABD8D8
+platFrontGrey    = #5F8688
+platSpecks       = #346C74
+
+platShadow1      = #0E161A
+platShadow2      = #131F25
+
+ranMask          = #FFF5EF
+ranHair          = #9D6ABB
+ranHairShadow1   = #48386D
+ranHairShadow2   = #272338
+
+
+/* END VARIABLES */
+
+/* UTILITIES */
+.martop05em { margin-top: 0.5em; }
+.martop1em { margin-top: 1em; }
+.martop2em { margin-top: 2em; }
+.martop3em { margin-top: 3em; }
+.martop4em { margin-top: 4em; }
+
+.marbottom01em { margin-bottom: 0.1em; }
+.marbottom05em { margin-bottom: 0.5em; }
+.marbottom1em { margin-bottom: 1em; }
+.marbottom2em { margin-bottom: 2em; }
+.marbottom3em { margin-bottom: 3em; }
+.marbottom4em { margin-bottom: 4em; }
+
+.padtop1em { padding-top: 1em; }
+.padtop2em { padding-top: 2em; }
+.padtop3em { padding-top: 3em; }
+.padtop4em { padding-top: 4em; }
+
+.padbottom1em { padding-bottom: 1em; }
+.padbottom2em { padding-bottom: 2em; }
+.padbottom3em { padding-bottom: 3em; }
+.padbottom4em { padding-bottom: 4em; }
+
+.padbottom6em { padding-bottom: 6em; }
+.padbottom8em { padding-bottom: 8em; }
+
+.padbottomfinal { padding-bottom: 12%; }
+
+.justascootch { margin-top: 5px; }
+
+.marsides1em { margin-left: 1em; margin-right: 1em;}
+.padsides1em { padding-left: 1em; padding-right: 1em;}
+
+.marright1em { margin-right: 1em; }
+.padright1em { padding-right: 1em; }
+.padleft1em { padding-left: 1em; }
+
+.flex-video
+  position: relative;
+  padding-top: 25px
+  padding-bottom: 67.5%
+  height: 0;
+  margin-bottom: 16px
+  overflow: hidden;
+
+  &.widescreen
+    padding-bottom: 56.34%
+  &.vimeo
+    padding-top: 0
+
+  iframe,
+  object,
+  embed,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
   
-p
-  paragraph()
-  
+.tall-flex-video
+  position: relative;
+  padding-top: 72%
+  padding-bottom: 67.5%
+  height: 0;
+  // margin-bottom: 16em
+  overflow: hidden;
+
+  &.widescreen
+    padding-bottom: 56.34%
+  &.vimeo
+    padding-top: 0
+
+  iframe,
+  object,
+  embed,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+/* END UTILITIES */
+
 html
   height 100%
+  // font-size 100%
+  // line-height 1.5
+  
   
 body
+  min-height 100% 
   background: linear-gradient(
                               top, 
                               #00B6C7, 
@@ -44,41 +161,124 @@ body
                               
                               80% #00AF8A
                             )
-  min-height 100% 
+                            
+img
+  max-width 100% 
+  
+p
+  paragraph()
+  
+a
+  &:link 
+    color: ranHair
+  &:hover 
+    color: ranMask !important
+  &:visited 
+    color: ranHair
+  &:active 
+    color: ranHair
+  
+  
 
 #container
-  center(3000px, 1em)
+  // center(3000px, 1em)
+  center(3000px)
   
-  .contained
+  .topmost
     position relative
     col(1)
-    // min-height 10em 
+    // min-height 10em
+      
+  .sidepadding
+    padding-left 1em
+    padding-right 1em
+    // center(900px, 1em)
     
   .logo
     text-align center
-    padding-top 3em
-    padding-bottom 3em  
+    padding-top 2em
+    padding-bottom 2em  
     // align(both)
   
-  .sidebar
-    stack()
-    transition: all .5s ease
+  // .sidebar
+  //   stack()
+  //   transition: all .5s ease
     
-    +below(600px)
-      ul
-        inline-list: 10px
-        center(200px)
+  //   +below(600px)
+  //     ul
+  //       inline-list: 10px
+  //       center(200px)
     
-    +above(600px)
-      unstack()
-      col(1/2)
-    
-      
+  //   +above(400px)
+  //     unstack()
+  //     col(1/2) 
         
-  .main
-    stack()
-    transition: all .5s ease
+  // .video
+  //   col(1/4, offset: 1/8)   
+  //   transition: all .5s ease
     
-    +above(600px)
-      unstack()
-      col(1/2)
+  //   // +mobile()
+  //   +below(900px)
+  //     stack()
+  //     col(1)
+  //     ul
+  //       inline-list: 10px
+  //       center()
+            
+  // .main
+  //   col(1/2)
+  //   transition: all .5s ease
+    
+  //   // +mobile()
+  //   +below(900px)
+  //     stack()
+  //     col(1)
+    
+    .leftbox
+      stack()
+      col(1)
+      transition: all .5s ease
+      
+
+      +above(700px)
+        unstack();
+        col(1/4)
+    
+    .video
+      stack()
+      col(1)
+      transition: all .5s ease
+      
+      +above(700px)
+        unstack();
+        col(1/4)
+              
+    .main
+      stack()
+      col(1)
+      transition: all .5s ease
+      
+      +above(700px)
+        unstack()
+        col(1/2)
+      
+.boxPlatform
+  background platFrontGrey
+  border-top 40px solid platSurfaceGrey
+  
+  h1, h2, h3
+    color ranMask
+    text-shadow: 0px 3px platShadow1
+    
+  h1
+    font-size 3em
+      
+.boxBGgrey1
+  background BGgrey1dark
+  border-radius 5px
+  border-top 5px solid BGgrey1highlight
+  padding 1em 
+  
+  p, h1, h2, h3
+    color: platSurfaceGrey
+    text-shadow: 0px 2px platShadow1
