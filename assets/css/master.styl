@@ -1,16 +1,25 @@
 @import '_settings'
-@import 'jeet'
+// @import 'jeet'
+@import '_normalize'
 
-normalize-css()
-base()
-// edit()
+// Default settings
+// $mobile-first: true
+// $max-width:    1170px
+// $breakpoints:  481px 769px 993px
+// $gutters:      20px 20px 26px 30px
 
-/* 
-VARIABLES 
-*/
+$container = {
+  ".container": {}
+};
+$grid = {
+  ".third": {
+    width: 1 1/2 null 1/3
+  }
+};
 
-// Rupture scale
-scale = 0 90em 120em 150em 180em
+@import "_rebar";
+
+// VARIABLES
 
 BGgrey1dark      = #1B2D36
 BGgrey1details   = #152127
@@ -178,89 +187,32 @@ a
   &:active 
     color: ranHair
   
+// STRUCTURE
   
+.topmost
+  position relative
+  // min-height 10em
+    
+.sidepadding
+  padding-left 1em
+  padding-right 1em
+  // center(900px, 1em)
+  
+.logo
+  text-align center
+  padding-top 2em
+  padding-bottom 2em
+  
+.leftbox
+  transition: all .5s ease
 
-#container
-  // center(3000px, 1em)
-  center(3000px)
+.video
+  transition: all .5s ease
+          
+.main
+  transition: all .5s ease
   
-  .topmost
-    position relative
-    col(1)
-    // min-height 10em
-      
-  .sidepadding
-    padding-left 1em
-    padding-right 1em
-    // center(900px, 1em)
-    
-  .logo
-    text-align center
-    padding-top 2em
-    padding-bottom 2em  
-    // align(both)
-  
-  // .sidebar
-  //   stack()
-  //   transition: all .5s ease
-    
-  //   +below(600px)
-  //     ul
-  //       inline-list: 10px
-  //       center(200px)
-    
-  //   +above(400px)
-  //     unstack()
-  //     col(1/2) 
-        
-  // .video
-  //   col(1/4, offset: 1/8)   
-  //   transition: all .5s ease
-    
-  //   // +mobile()
-  //   +below(900px)
-  //     stack()
-  //     col(1)
-  //     ul
-  //       inline-list: 10px
-  //       center()
-            
-  // .main
-  //   col(1/2)
-  //   transition: all .5s ease
-    
-  //   // +mobile()
-  //   +below(900px)
-  //     stack()
-  //     col(1)
-    
-    .leftbox
-      stack()
-      col(1)
-      transition: all .5s ease
-      
-
-      +above(700px)
-        unstack();
-        col(1/4)
-    
-    .video
-      stack()
-      col(1)
-      transition: all .5s ease
-      
-      +above(700px)
-        unstack();
-        col(1/4)
-              
-    .main
-      stack()
-      col(1)
-      transition: all .5s ease
-      
-      +above(700px)
-        unstack()
-        col(1/2)
+// STYLES
       
 .boxPlatform
   background platFrontGrey
@@ -282,3 +234,20 @@ a
   p, h1, h2, h3
     color: platSurfaceGrey
     text-shadow: 0px 2px platShadow1
+    
+// ANIMATION
+
+@keyframes wake {
+    from { background-position: 0px; }
+    to { background-position: -1856px; }
+}
+
+.ranWake
+  height 64px
+  width 64px
+  background-position -1856px 
+  background-image url("/img/mainCharacter_waking.png") 
+  margin 0 auto
+  animation: wake 2s steps(29);
+  transform scale(2)
+  // -webkit-animation-fill-mode: forwards;
