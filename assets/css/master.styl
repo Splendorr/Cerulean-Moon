@@ -132,7 +132,7 @@ html
   
 body
   min-height 100% 
-  background: linear-gradient(
+/*  background: linear-gradient(
                               top, 
                               #00B6C7, 
                               30% #00B6C7, 
@@ -161,7 +161,7 @@ body
                               
                               80% #00AF8A
                             )
-                            
+*/                            
 img
   max-width 100% 
   
@@ -178,89 +178,90 @@ a
   &:active 
     color: ranHair
   
-  
+// STRUCTURE
 
 #container
   // center(3000px, 1em)
-  center(3000px)
+  // center(3000px)
+  center(1000px)
   
-  .topmost
-    position relative
-    col(1)
-    // min-height 10em
-      
-  .sidepadding
-    padding-left 1em
-    padding-right 1em
-    // center(900px, 1em)
+.topmost
+  position relative
+  col(1)
+  // min-height 10em
     
-  .logo
-    text-align center
-    padding-top 2em
-    padding-bottom 2em  
-    // align(both)
+.sidepadding
+  padding-left 1em
+  padding-right 1em
+  // center(900px, 1em)
   
-  // .sidebar
-  //   stack()
-  //   transition: all .5s ease
-    
-  //   +below(600px)
-  //     ul
-  //       inline-list: 10px
-  //       center(200px)
-    
-  //   +above(400px)
-  //     unstack()
-  //     col(1/2) 
-        
-  // .video
-  //   col(1/4, offset: 1/8)   
-  //   transition: all .5s ease
-    
-  //   // +mobile()
-  //   +below(900px)
-  //     stack()
-  //     col(1)
-  //     ul
-  //       inline-list: 10px
-  //       center()
-            
-  // .main
-  //   col(1/2)
-  //   transition: all .5s ease
-    
-  //   // +mobile()
-  //   +below(900px)
-  //     stack()
-  //     col(1)
-    
-    .leftbox
-      stack()
-      col(1)
-      transition: all .5s ease
-      
+.logo
+  text-align center
+  padding-top 2em
+  padding-bottom 2em  
+  // align(both)
 
-      +above(700px)
-        unstack();
-        col(1/4)
-    
-    .video
-      stack()
-      col(1)
-      transition: all .5s ease
+// .sidebar
+//   stack()
+//   transition: all .5s ease
+  
+//   +below(600px)
+//     ul
+//       inline-list: 10px
+//       center(200px)
+  
+//   +above(400px)
+//     unstack()
+//     col(1/2) 
       
-      +above(700px)
-        unstack();
-        col(1/4)
-              
-    .main
-      stack()
-      col(1)
-      transition: all .5s ease
-      
-      +above(700px)
-        unstack()
-        col(1/2)
+// .video
+//   col(1/4, offset: 1/8)   
+//   transition: all .5s ease
+  
+//   // +mobile()
+//   +below(900px)
+//     stack()
+//     col(1)
+//     ul
+//       inline-list: 10px
+//       center()
+          
+// .main
+//   col(1/2)
+//   transition: all .5s ease
+  
+//   // +mobile()
+//   +below(900px)
+//     stack()
+//     col(1)
+  
+.leftbox
+  stack()
+  col(1)
+  transition: all .5s ease
+  
+
+  +above(700px)
+    unstack();
+    col(1/4)
+
+.video
+  stack()
+  col(1)
+  transition: all .5s ease
+  
+  +above(700px)
+    unstack();
+    col(1/4)
+          
+.main
+  stack()
+  col(1)
+  transition: all .5s ease
+  
+  +above(700px)
+    unstack()
+    col(1/2)
       
 .boxPlatform
   background platFrontGrey
@@ -282,3 +283,42 @@ a
   p, h1, h2, h3
     color: platSurfaceGrey
     text-shadow: 0px 2px platShadow1
+
+// ANIMATION
+
+@keyframes wake {
+    from { background-position: 0px; }
+    to { background-position: -1856px; }
+}
+
+.ranWake
+  height 64px
+  width 64px
+  background-position -1856px 
+  background-image url("/img/mainCharacter_waking.png") 
+  margin 0 auto
+  animation: wake 2s steps(29);
+  transform scale(2)
+  // -webkit-animation-fill-mode: forwards;
+
+@keyframes wake4x {
+    from { background-position: 0px 0px; }
+    to { background-position: -7424px 0px; }
+}
+
+@keyframes stand4x {
+    from { background-position: 0px -256px; }
+    to { background-position: -4864px -256px; }
+}
+
+.ranWake4x
+  height 256px
+  width 256px
+  background-position -7424px 0px
+  background url("/img/mainCharacter_waking_standing_4x.png") 0 0 no-repeat;
+  margin 0 auto
+  // position absolute 
+  // animation: wake4x 2s steps(29) 1;
+  animation: wake4x 2s steps(29) 1, stand4x 2s steps(19) 2.1s infinite;
+  // animation: stand4x 2s steps(19) infinite;
+  // -webkit-animation-fill-mode: forwards;
