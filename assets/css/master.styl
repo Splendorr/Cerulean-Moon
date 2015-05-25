@@ -3,6 +3,7 @@
 
 normalize-css()
 base()
+
 // edit()
 
 /* 
@@ -183,7 +184,7 @@ a
 #container
   // center(3000px, 1em)
   // center(3000px)
-  center(1000px)
+  center(960px)
   
 .topmost
   position relative
@@ -194,11 +195,18 @@ a
   padding-left 1em
   padding-right 1em
   // center(900px, 1em)
+    
+.centered
+  text-align center
+  
+.upcase
+  uppercase()
   
 .logo
   text-align center
-  padding-top 2em
-  padding-bottom 2em  
+  // padding-top 2em
+  // padding-bottom 2em 
+   
   // align(both)
 
 // .sidebar
@@ -236,32 +244,111 @@ a
 //     col(1)
   
 .leftbox
-  stack()
-  col(1)
   transition: all .5s ease
   
-
-  +above(700px)
-    unstack();
-    col(1/4)
+  column(1/3, offset: 1/3)
+  +below(700px)
+    stack()
+    col(1)
 
 .video
-  stack()
-  col(1)
   transition: all .5s ease
   
-  +above(700px)
-    unstack();
-    col(1/4)
+  span(1/2, offset: 1/4)
+  +below(500px)
+    stack()
+    col(1)
+    
+.field
+  field()
+    
+.linklist
+  span(1/5)
+  +below(500px)
+    stack()
+    col(1)
+    // ul, li
+    //   text-align center
+    ul
+      font-size 0.8em 
+      inline-list: 1em
+      center(280px)
+
+  ul
+    list-style none
+    padding-left 0.5em
           
 .main
   stack()
   col(1)
   transition: all .5s ease
   
-  +above(700px)
-    unstack()
-    col(1/2)
+  // +above(500px)
+  //   unstack()
+  //   col(1/2)
+    
+.slider
+  col(2/3, offset: 1/6)
+
+.row
+  text-align center
+  
+.slide
+  col(1/3)
+  background-color silver 
+    
+.nachologo
+  span(1/3, offset: 1/6)
+  +below(700px)
+    // stack()
+    col(2/3, offset: 1/6)
+  +below(500px)
+    stack()
+    col(1)
+    
+.credits
+  padding-left 1em
+  
+  font-size 1.7em
+  line-height 1.1em 
+  
+  span(1/3)
+  +below(900px)
+    font-size 1.5em
+  +below(800px)
+    font-size 1.3em
+  +below(700px)
+    // stack()
+    col(2/3, offset: 1/6)
+    font-size 2em
+  +below(600px)
+    font-size 1.7em
+  +below(500px)
+    stack()
+    col(1)
+    // center(320px)
+    // text-align center
+  
+  // .stable
+  //   table(border: false, striped: false, condensed: true)
+  
+  p, ul
+    margin-top 0em
+    padding-top 0
+  
+  ul
+    list-style none
+    padding-left 0
+    
+    
+.halfoffset
+  column(1/2, offset: 1/4)
+  
+.justhalf
+  column(1/2)
+
+.halfspan
+  span(1/2)
       
 .boxPlatform
   background platFrontGrey

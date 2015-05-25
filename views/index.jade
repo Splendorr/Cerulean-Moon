@@ -1,28 +1,61 @@
 extends layout
 
 block content
-  #container.padbottom4em
-    .topmost
-      //- .boxPlatform
-      .martop1em
-        .logo
-          img(src="img/cm_logo_2x.png", alt="Cerulean Moon Logo")
-    
-    .sidepadding
+  .sidepadding
+    #container.padbottom4em
+      .topmost
+        //- .boxPlatform
+        .martop1em
+          .logo
+            img(src="img/cm_logo_1x.png", alt="Cerulean Moon Logo")
+      
+      
       .leftbox.martop1em
-        .boxBGgrey1
+        //- .boxBGgrey1
+        .centered.upcase
           :markdown
-            CERULEAN MOON is the first precise platformer for touchscreens. Slide the world.
+            A precision platformer for touchscreens.
 
-      .video.martop1em
+      .video.martop1em.marbottom1em
         .tall-flex-video
           iframe(width="480", height="360", src="https://www.youtube.com/embed/WZfIJgGcDic?rel=0", frameborder="0", allowfullscreen="")
+      .linklist
+        :markdown
+          * TWITTER
+          * FACEBOOK
+          * TUMBLR
+          * PRESSKIT
 
-      .main.martop1em
-        .boxBGgrey1
+      //- .video.martop1em.marbottom1em
+      //-   .field
+      //-     input
+
+
+      .slider.martop2em.marbottom4em
+        .row
+          .slide
+            p one
+          .slide
+            p two
+          .slide
+            p three
+        .row
+          .slide
+            p four
+          .slide
+            p five
+          .slide
+            p six
+      
+      .padbottom4em
+        .nachologo
+          //- .nachobeard
+          img(src="img/nacho_logo-cropped.png", alt="Nacho Beard Logo")
+        .credits.upcase
+          //- .boxBGgrey1
+          
           :markdown
-            Design & Code by [Nacho Beard](http://blog.nachobeard.com), Art by [Anaïs Maamar](http://anais-maamar.tumblr.com/), Art & Animation by [Clairvoire](http://clairvoire.tumblr.com/)
-
-      .main.padbottom4em
-        .nachobeard
-          img(src="img/nacho_logo.png", alt="Nacho Beard Logo")
+            * [Nacho](http://blog.nachobeard.com) Game, Code
+            * [Anaïs](http://anais-maamar.tumblr.com/) Sprite Design
+            * [Josh](http://clairvoire.tumblr.com/) Animation
+            * [Mr. X](http://clairvoire.tumblr.com/) Sound
