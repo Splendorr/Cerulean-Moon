@@ -136,10 +136,10 @@ html
   
 body
   min-height 100% 
-  background-image url("../img/BEACH_AREA_fullview_filled_1920_tall.png")
+  background-image url("../img/BEACH_AREA_fullview_filled_1920_tall_gradient.png")
   background-position center top
   background-repeat no-repeat 
-  background-color beachsand
+  background-color #E6FBF6
 /*  background: linear-gradient(
                               top, 
                               #00B6C7, 
@@ -401,6 +401,11 @@ div.gfyitem {
     width: 100% !important;
     height: 100% !important;
 }
+
+.bottompadding
+  padding-bottom 4em
+  +below(700px)
+    padding-bottom 2em
     
 .nachologo
   span(2/6, offset: 1/6)
