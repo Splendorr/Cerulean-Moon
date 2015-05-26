@@ -1,5 +1,6 @@
 console.log 'hello there!'
 
+# Begin document.ready:
 $ ->
   $('.slider').slick
     slidesToShow: 1
@@ -9,3 +10,4 @@ $ ->
     dots: true
     adaptiveHeight: false
     # asNavFor: '.responsiveslider'
+# End document.ready
