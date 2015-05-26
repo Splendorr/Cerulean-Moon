@@ -175,6 +175,7 @@ img
   
 p
   paragraph()
+  font-kerning: normal;
   
 a
   &:link 
@@ -328,17 +329,78 @@ a
   //   unstack()
   //   col(1/2)
     
-.slider
+.responsiveslider
   col(2/3, offset: 1/6)
+  display inherit !important
+  +below(700px)
+    display none !important
 
 .row
   text-align center
   
-.slide
+.slide1of3
   col(1/3)
   background-color silver 
+  height: 18em
   
-  height: 16em
+.slidersmallgfy
+  col(7/8, offset: 1/16)
+  text-align center
+  display none !important
+  +below(700px)
+    display inherit !important
+  
+.slide1of1
+  // col(7/8)
+  background-color silver 
+  text-align center
+  height: 26em
+  
+div.gfyitem {
+    width:100%;
+    div:not(.gfyCtrlBox):not(.gfyCtrlTabPull){
+        width: 100% !important;
+        max-width:100% !important;
+        height: auto !important;    
+        .gfyPreLoadCanvas{
+            display: none;
+        }
+        video{
+            position:relative !important;
+            margin-top: 0;
+            padding-top: 0; 
+        }
+    }
+    .gfyCtrlBox{
+        margin-bottom:10px !important; 
+        .gfyCtrlPause, .gfyCtrlReverse, .gfyCtrlSlower, .gfyCtrlFaster{
+        width:15px;
+        height:15px;
+        margin-top:0;
+        }
+      }
+    .gfyGif{
+        position:relative !important;
+    }
+}
+
+
+.gfy-flex {
+    position: relative;
+    height: 0px;
+    padding-bottom: 56.25%;
+    background-color: #DBD0A9;
+}
+
+.gfy-flex .gfyitem > div,
+.gfy-flex .gfyitem .gfyPreLoadCanvas,
+.gfy-flex .gfyitem .gfyVid,
+.gfy-flex .gfyitem  .gfyGif {
+    position: absolute !important;
+    top: 0; right: 0; bottom: 0; left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
     
 .nachologo
   span(2/6, offset: 1/6)
