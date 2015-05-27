@@ -277,7 +277,18 @@ a
   +below(500px)
     stack()
     col(1)
-    
+
+.newsletter
+  transition: all .5s ease
+  span(1/2, offset: 1/4)
+  
+  p
+    padding-left 0.5em !important
+    padding-bottom 0 !important
+    margin-bottom 0 !important
+    color black
+  
+  
 .field
   field(right, 100%)
   
@@ -285,9 +296,50 @@ a
     
   label
     label: block
-    
+
+#mc_embed_signup
+  // width 100%
+  // field(right, 100%)
+  padding 0
+  margin 0 
+  width 100%
+ 
+form#mc-embedded-subscribe-form
+  width 100% 
+  padding 0
+  margin 0
+  field(left, 100%)
+
+.inputholder
+  span(6/8)
 input#mce-EMAIL
-  input()
+  // input()
+  // padding 0
+  width 100%
+  margin 0
+  border none
+  // float left
+  padding-left 0.5em !important
+  
+.buttonholder
+  span(2/8)
+  // unstack()
+  text-align right
+  // max-width 100%
+input#mc-embedded-subscribe
+  // button: gray 'medium'
+  width 100%
+  border none
+  // float right
+  // padding 0
+  margin 0
+  // max-width 100%
+  // padding auto  
+    
+input#mce-EMAIL, input#mc-embedded-subscribe
+  font-size 1em
+  line-height 2em
+  padding 0
     
     
 .linklist
