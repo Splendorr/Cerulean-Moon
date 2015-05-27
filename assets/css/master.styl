@@ -222,8 +222,8 @@ a
   clearfix() 
   
 .logo
-  // text-align center
-  text-align right
+  text-align center
+  // text-align right
   // float right
   
   +below(700px)
@@ -235,7 +235,9 @@ a
   transition: all .5s ease
   
   // position relative
-  span(9/17)
+  // span(9/17)
+  col(1)  
+
   // unstack()
   // min-height 10em
   +below(700px)
@@ -247,22 +249,26 @@ a
   transition: all .5s ease
   
   color: white
-  p
-    font-size 1.4em
-    line-height 1em 
   
-  // column(1/3, offset: 1/3)
-  span(4/17)
-  padding-top 15em 
+  p
+    font-size 1.8em
+    line-height 1.1em 
+  
+  column(2/5, offset: 3/10)
+  text-align center
+  
+  // span(4/17)
+  // padding-top 15em 
+  
   // unstack()
   +below(700px)
     stack()
     col(7/8, offset: 1/16)
     padding-top 0em 
     text-align center
-  p
-    font-size 1em
-    line-height 1.2em 
+    p
+      font-size 1.2em
+      line-height 1.2em 
 
 .video
   transition: all .5s ease
@@ -273,12 +279,15 @@ a
     col(1)
     
 .field
-  field()
+  field(right, 100%)
   
   input[type='text']
     
   label
     label: block
+    
+input#mce-EMAIL
+  input()
     
     
 .linklist
@@ -415,6 +424,27 @@ div.gfyitem {
   +below(500px)
     stack()
     col(1)
+  a
+    &:link 
+      // color: ranHair
+      color: linkgray
+      text-decoration none
+      // border-bottom: 1px dashed gray;
+      // border-bottom: 1px dashed gray;
+        
+      background-image: none
+      background-position: bottom left;
+      background-size: 4px 1px;
+      background-repeat: repeat-x;
+      
+    &:hover 
+      color: ranHair !important
+      background-image: none
+      // border-bottom: 1px dashed ranHair;
+    &:visited 
+      color: linkgray
+    &:active 
+      color: linkgray
     
 .credits
   padding-left 1em

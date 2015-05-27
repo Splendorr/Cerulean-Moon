@@ -213,6 +213,7 @@ $(document).ready(function(){
 
 
 var firstvideo = 'WZfIJgGcDic';
+var secondvideo = 'sdh2VsCD9-Q';
 
 // YOU TUBE **********************************
 // Load the IFrame Player API code asynchronously.
@@ -228,7 +229,7 @@ function onYouTubePlayerAPIReady() {
   player = new YT.Player('player', {
     height: '1080',
     width: '1920',
-    videoId: firstvideo,
+    videoId: secondvideo,
     playerVars: { 'autoplay': 1, 'vq': 'HD720', 'autohide': 1, 'controls': 1, 'loop': 1, 'rel': 0 },
     events: {
             'onReady': onPlayerReady}
