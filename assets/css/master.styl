@@ -191,8 +191,8 @@ a
     background-repeat: repeat-x;
     
   &:hover 
-    color: ranHair !important
-    background-image: linear-gradient(to right, ranHair 50%, rgba(255,255,255,0) 0%);
+    color: gray !important
+    background-image: linear-gradient(to right, gray 50%, rgba(255,255,255,0) 0%);
     // border-bottom: 1px dashed ranHair;
   &:visited 
     color: linkgray
@@ -255,32 +255,96 @@ a
     line-height 1.1em 
   
   column(2/5, offset: 3/10)
-  text-align center
+  text-align center !important
+  +below(800px)
+    column(3/5, offset: 2/10)
   
-  // span(4/17)
-  // padding-top 15em 
-  
-  // unstack()
-  +below(700px)
+  +below(750px)
     stack()
+    col(1/2, offset: 1/4)
+    padding-top 0em 
+    p
+      font-size 1.4em
+      line-height 1.2em
+  +below(550px)
     col(7/8, offset: 1/16)
     padding-top 0em 
-    text-align center
     p
       font-size 1.2em
-      line-height 1.2em 
+      line-height 1.2em
 
 .video
   transition: all .5s ease
   
-  span(1/2, offset: 1/4)
+  span(1/2)
+  +below(700px)
+    stack()
+    col(6/8, offset: 1/8)
   +below(500px)
+    col(1)
+
+.linklist
+  span(1/4)
+  shift(3/4, span)
+  
+  ul
+    list-style none
+    padding-left 0.5em
+    line-height 1.4em 
+    
+  +below(700px)
+    // text-align center
+    margin-top 1em
+    unshift()
     stack()
     col(1)
+    ul
+      // text-align center
+      font-size 1em 
+      inline-list: 1em
+      center(345px)
+    // li
+    //   text-align center
+  +below(500px)
+    ul
+      font-size 0.8em 
+      inline-list: 1em
+      center(280px)
+        
+  // .centeredlist
+  //   text-align center
+  //   width 100%
+  
+  a
+    &:link 
+      // color: ranHair
+      color: white
+      text-decoration none
+      // border-bottom: 1px dashed gray;
+      // border-bottom: 1px dashed gray;
+        
+      background-image: linear-gradient(to right, white 50%, rgba(255,255,255,0) 0%);
+      background-position: bottom left;
+      background-size: 4px 1px;
+      background-repeat: repeat-x;
+      
+    &:hover 
+      color: silver !important
+      background-image: linear-gradient(to right, silver 50%, rgba(255,255,255,0) 0%);
+      // border-bottom: 1px dashed ranHair;
+    &:visited 
+      color: white
+    &:active 
+      color: white
 
 .newsletter
   transition: all .5s ease
   span(1/2, offset: 1/4)
+  +below(700px)
+    stack()
+    col(6/8, offset: 1/8)
+  +below(500px)
+    col(1)
   
   p
     padding-left 0.5em !important
@@ -340,46 +404,6 @@ input#mce-EMAIL, input#mc-embedded-subscribe
   font-size 1em
   line-height 2em
   padding 0
-    
-    
-.linklist
-  span(1/5)
-  +below(500px)
-    stack()
-    col(1)
-    // ul, li
-    //   text-align center
-    ul
-      font-size 0.8em 
-      inline-list: 1em
-      center(280px)
-
-  ul
-    list-style none
-    padding-left 0.5em
-    line-height 1.4em 
-  
-  a
-    &:link 
-      // color: ranHair
-      color: white
-      text-decoration none
-      // border-bottom: 1px dashed gray;
-      // border-bottom: 1px dashed gray;
-        
-      background-image: linear-gradient(to right, white 50%, rgba(255,255,255,0) 0%);
-      background-position: bottom left;
-      background-size: 4px 1px;
-      background-repeat: repeat-x;
-      
-    &:hover 
-      color: ranHair !important
-      background-image: linear-gradient(to right, ranHair 50%, rgba(255,255,255,0) 0%);
-      // border-bottom: 1px dashed ranHair;
-    &:visited 
-      color: white
-    &:active 
-      color: white
           
 .main
   stack()
@@ -479,18 +503,10 @@ div.gfyitem {
   a
     &:link 
       // color: ranHair
-      color: linkgray
       text-decoration none
-      // border-bottom: 1px dashed gray;
-      // border-bottom: 1px dashed gray;
-        
       background-image: none
-      background-position: bottom left;
-      background-size: 4px 1px;
-      background-repeat: repeat-x;
       
     &:hover 
-      color: ranHair !important
       background-image: none
       // border-bottom: 1px dashed ranHair;
     &:visited 
