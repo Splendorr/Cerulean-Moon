@@ -319,7 +319,7 @@ a
     stack()
     col(1)
     ul
-      display inline-black
+      display inline-block
       font-size 1em 
       // inline-list: 1em
       // center(345px)
@@ -328,7 +328,7 @@ a
       padding-right .5em
   +below(500px)
     i
-      min-wid th 1.2em 
+      min-width 1.2em 
     ul
       font-size 0.7em 
       // inline-list: 1em
@@ -374,7 +374,7 @@ a
     col(1)
   
   p
-    padding-left 0.5em !important
+    // padding-left 0.5em !important
     padding-bottom 0 !important
     margin-bottom 0 !important
     color black
@@ -403,41 +403,59 @@ form#mc-embedded-subscribe-form
   
 #mc_embed_signup_scroll
   // display block
+  border 1px solid black !important
+  overflow hidden
   
 span.formcontainer
   display block
-
-.inputholder
-  span(6/8)
+  overflow hidden
+  // padding-right:10px;
+  
+// .inputholder
+//   span(6/8)
 input#mce-EMAIL
   // input()
   // padding 0
   width 100%
-  margin 0
+  margin 0 !important
   border none
   // float left
   padding-left 0.5em !important
   
-.buttonholder
-  span(2/8)
-  // unstack()
-  // text-align right
-  // max-width 100%
+// .buttonholder
+//   span(2/8)
+//   // unstack()
+//   // text-align right
+//   // max-width 100%
 input#mc-embedded-subscribe.button
   // button: gray 'medium'
-  width 100%
+  background-color #C0C0C0 
+  float right
+  // width 100%
   border none
   // float right
   // padding 0
-  margin 0
+  margin 0 !important
+  padding-right 1em
+  padding-left 1em 
+  
+  // border-left 1px solid silver
   // max-width 100%
   // padding auto  
     
-input#mce-EMAIL, input#mc-embedded-subscribe
+input#mce-EMAIL
   font-size 1.2em
   line-height 2em
   padding 0
-  padding-top .1em 
+  padding-top .2em 
+  upcase()
+  
+input#mc-embedded-subscribe
+  font-size 1.2em
+  line-height 2em
+  padding 0
+  padding-top .2em 
+  upcase()
           
 .main
   stack()
