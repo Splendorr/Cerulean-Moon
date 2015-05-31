@@ -53,6 +53,8 @@ beachsand        = #9DE8D4
 .marbottom2em { margin-bottom: 2em; }
 .marbottom3em { margin-bottom: 3em; }
 .marbottom4em { margin-bottom: 4em; }
+.marbottom5em { margin-bottom: 5em; }
+.marbottom6em { margin-bottom: 6em; }
 
 .padtop1em { padding-top: 1em; }
 .padtop2em { padding-top: 2em; }
@@ -129,17 +131,25 @@ beachsand        = #9DE8D4
 /* END UTILITIES */
 
 html
-  height 100%
+  // height 100%
+  min-height 100%
   // font-size 100%
   // line-height 1.5
-  
+  // background-color #E6FBF6
+  background: linear-gradient(
+    top, 
+    #00B6C7,
+    50% #87EFD5,
+    60% #E6FBF6,
+    100% #E6FBF6
+  ) 
   
 body
   min-height 100% 
   background-image url("../img/BEACH_AREA_fullview_filled_1920_tall_gradient.png")
   background-position center top
   background-repeat no-repeat 
-  background-color #E6FBF6
+  // background-color #E6FBF6
 /*  background: linear-gradient(
                               top, 
                               #00B6C7, 
@@ -275,45 +285,62 @@ a
 
 .video
   transition: all .5s ease
+  margin-top 1em
   
   span(1/2)
   +below(700px)
+    margin-top 0
     stack()
     col(6/8, offset: 1/8)
   +below(500px)
     col(1)
 
 .linklist
+  // transition: all .5s ease
+    
+  color white
+  
   span(1/4)
   shift(3/4, span)
+  
+  i
+    min-width 1.5em
+    text-align center
   
   ul
     list-style none
     padding-left 0.5em
-    line-height 1.4em 
+    line-height 1.5em 
     
   +below(700px)
-    // text-align center
+    text-align center
     margin-top 1em
     unshift()
     stack()
     col(1)
     ul
-      // text-align center
+      display inline-black
       font-size 1em 
-      inline-list: 1em
-      center(345px)
-    // li
-    //   text-align center
+      // inline-list: 1em
+      // center(345px)
+    li
+      display inline
+      padding-right .5em
   +below(500px)
+    i
+      min-wid th 1.2em 
     ul
-      font-size 0.8em 
-      inline-list: 1em
-      center(280px)
+      font-size 0.7em 
+      // inline-list: 1em
+      // center(280px)
+    li
+      padding-right 0.25em
         
-  // .centeredlist
-  //   text-align center
-  //   width 100%
+  .centeredlist
+    text-align left
+    +below(700px)
+      text-align center
+    // width 100%
   
   a
     &:link 
@@ -373,6 +400,12 @@ form#mc-embedded-subscribe-form
   padding 0
   margin 0
   field(left, 100%)
+  
+#mc_embed_signup_scroll
+  // display block
+  
+span.formcontainer
+  display block
 
 .inputholder
   span(6/8)
@@ -388,9 +421,9 @@ input#mce-EMAIL
 .buttonholder
   span(2/8)
   // unstack()
-  text-align right
+  // text-align right
   // max-width 100%
-input#mc-embedded-subscribe
+input#mc-embedded-subscribe.button
   // button: gray 'medium'
   width 100%
   border none
@@ -401,9 +434,10 @@ input#mc-embedded-subscribe
   // padding auto  
     
 input#mce-EMAIL, input#mc-embedded-subscribe
-  font-size 1em
+  font-size 1.2em
   line-height 2em
   padding 0
+  padding-top .1em 
           
 .main
   stack()
@@ -425,8 +459,8 @@ input#mce-EMAIL, input#mc-embedded-subscribe
   
 .slide1of3
   col(1/3)
-  background-color silver 
-  height: 18em
+  // background-color silver 
+  // height: 18em
   
 .slidersmallgfy
   col(7/8, offset: 1/16)
@@ -437,7 +471,7 @@ input#mce-EMAIL, input#mc-embedded-subscribe
   
 .slide1of1
   // col(7/8)
-  background-color silver 
+  // background-color silver 
   text-align center
   height: 26em
   
@@ -446,7 +480,7 @@ div.gfyitem {
     div:not(.gfyCtrlBox):not(.gfyCtrlTabPull){
         width: 100% !important;
         max-width:100% !important;
-        height: auto !important;    
+        height: auto !important; 
         .gfyPreLoadCanvas{
             display: none;
         }
@@ -466,6 +500,7 @@ div.gfyitem {
       }
     .gfyGif{
         position:relative !important;
+        background-color: rgba(255,255,255,0);
     }
 }
 
@@ -473,8 +508,11 @@ div.gfyitem {
 .gfy-flex {
     position: relative;
     height: 0px;
-    padding-bottom: 56.25%;
-    background-color: #DBD0A9;
+    // padding-bottom: 56.25%;
+    padding-top: 70.5%
+    padding-bottom: 70.5%
+    overflow: hidden;
+    background-color: rgba(255,255,255,0);
 }
 
 .gfy-flex .gfyitem > div,
@@ -485,12 +523,22 @@ div.gfyitem {
     top: 0; right: 0; bottom: 0; left: 0;
     width: 100% !important;
     height: 100% !important;
+    background-color: rgba(255,255,255,0);
 }
 
 .bottompadding
   padding-bottom 4em
   +below(700px)
     padding-bottom 2em
+    
+.agameby
+  col(1)
+  text-align center
+  upcase() 
+  // font-variant: small-caps
+  p
+    font-size 1.4em
+  
     
 .nachologo
   span(2/6, offset: 1/6)
@@ -519,7 +567,7 @@ div.gfyitem {
   
   font-size 1.7em
   // line-height 1.1em 
-  line-height 1.3em 
+  line-height 1.4em 
   
   span(3/7)
   +below(900px)
@@ -549,6 +597,10 @@ div.gfyitem {
   ul
     list-style none
     padding-left 0
+    
+.copyright
+  col(1)
+  text-align center
     
     
 .halfoffset

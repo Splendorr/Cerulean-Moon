@@ -36,32 +36,18 @@ $(document).ready(function(){
   $blankhtml = " ";
 
   // MOVE
-  $gfy0a = "<img class='gfyitem' data-id='SpitefulClumsyHoiho' data-controls='false' data-dot='false' data-perimeter='false' />";
-  // SHOOT
-  $gfy0b = "<img class='gfyitem' data-id='PinkUnlinedBovine' data-controls='false' data-dot='false' data-perimeter='false' />";
-  // PUSH
-  $gfy0c = "<img class='gfyitem' data-id='HideousCapitalAnnashummingbird' data-controls='false' data-dot='false' data-perimeter='false' />";
-
-  // AIM
-  $gfy1a = "<img class='gfyitem' data-id='EmbellishedDownrightItaliangreyhound' data-controls='false' data-dot='false' data-perimeter='false' />";
-  // LAUNCH
-  $gfy1b = "<img class='gfyitem' data-id='ShortHighlevelcicada' data-controls='false' data-dot='false' data-perimeter='false' />";
-  // SCORE
-  $gfy1c = "<img class='gfyitem' data-id='EverlastingNervousGemsbuck' data-controls='false' data-dot='false' data-perimeter='false' />";
-
-  // MOVE
-  gfySingles = ["<img class='gfyitem' data-id='SpitefulClumsyHoiho' data-controls='false' data-dot='false' data-perimeter='false' />",
+  gfySingles = ["<img class='gfyitem' data-id='FragrantHeartyKawala' data-controls='false' data-dot='false' data-perimeter='false' />",
     // SHOOT
-    "<img class='gfyitem' data-id='PinkUnlinedBovine' data-controls='false' data-dot='false' data-perimeter='false' />",
+    "<img class='gfyitem' data-id='FragrantHeartyKawala' data-controls='false' data-dot='false' data-perimeter='false' />",
     // PUSH
-    "<img class='gfyitem' data-id='HideousCapitalAnnashummingbird' data-controls='false' data-dot='false' data-perimeter='false' />",
+    "<img class='gfyitem' data-id='FragrantHeartyKawala' data-controls='false' data-dot='false' data-perimeter='false' />",
   
     // AIM
-    "<img class='gfyitem' data-id='EmbellishedDownrightItaliangreyhound' data-controls='false' data-dot='false' data-perimeter='false' />",
+    "<img class='gfyitem' data-id='FragrantHeartyKawala' data-controls='false' data-dot='false' data-perimeter='false' />",
     // LAUNCH
-    "<img class='gfyitem' data-id='ShortHighlevelcicada' data-controls='false' data-dot='false' data-perimeter='false' />",
+    "<img class='gfyitem' data-id='FragrantHeartyKawala' data-controls='false' data-dot='false' data-perimeter='false' />",
     // SCORE
-    "<img class='gfyitem' data-id='EverlastingNervousGemsbuck' data-controls='false' data-dot='false' data-perimeter='false' />"
+    "<img class='gfyitem' data-id='FragrantHeartyKawala' data-controls='false' data-dot='false' data-perimeter='false' />"
     ];
 
   var gfySingleMax = 5;
@@ -232,7 +218,9 @@ function onYouTubePlayerAPIReady() {
     videoId: secondvideo,
     playerVars: { 'autoplay': 1, 'vq': 'HD720', 'autohide': 1, 'controls': 1, 'loop': 1, 'rel': 0 },
     events: {
-            'onReady': onPlayerReady}
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
+    }
   });
 
   // mute player
@@ -242,3 +230,12 @@ function onYouTubePlayerAPIReady() {
 function onPlayerReady(event) {
         event.target.mute();
       }
+
+// when video ends
+function onPlayerStateChange(event) {        
+    if(event.data === 0) {          
+        // alert('done');
+        event.target.seekTo(0);
+        event.target.playVideo();
+    }
+}

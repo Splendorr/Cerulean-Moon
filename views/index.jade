@@ -11,7 +11,7 @@ block content
               img(src="img/cm_logo_2x.png", alt="Cerulean Moon Logo")
         
         
-        .tagline.upcase.Xmartop1em
+        .tagline.upcase
           //- .boxBGgrey1
           
           :markdown
@@ -20,19 +20,35 @@ block content
 
       .linklist
         .centeredlist
-          :markdown
-            * [TWITTER]()
-            * [FACEBOOK]()
-            * [TUMBLR]()
-            * [PRESSKIT]()
+          ul
+            li
+              i.fa.fa-facebook-official
+              a(href="") FACEBOOK
+            li
+              i.fa.fa-twitter
+              a(href="") TWITTER
 
-      .video.martop1em.marbottom1em
+            li
+              i.fa.fa-tumblr
+              a(href="") TUMBLR
+
+            li 
+              i.fa.fa-microphone
+              a(href="") PRESSKIT
+
+          //- :markdown
+          //-   * [TWITTER]()
+          //-   * [FACEBOOK]()
+          //-   * [TUMBLR]()
+          //-   * [PRESSKIT]()
+
+      .video.marbottom1em
         .tall-flex-video
           #player
           //- iframe(width="480", height="360", src="https://www.youtube.com/embed/WZfIJgGcDic?rel=0", frameborder="0", allowfullscreen="")
 
       .newsletter.marbottom1em
-        .field
+        .fieldX
         p newsletter
         // Begin MailChimp Signup Form
         //- link(href='//cdn-images.mailchimp.com/embedcode/slim-081711.css', rel='stylesheet', type='text/css')
@@ -55,7 +71,7 @@ block content
         
 
 
-      .responsiveslider.martop2em.marbottom4em
+      .responsiveslider.martop2em.marbottom5em
         .row
           .slide1of3
             #gfySingle0triple.gfy-flex
@@ -71,7 +87,7 @@ block content
           .slide1of3
             #gfySingle5triple.gfy-flex
 
-      .slidersmallgfy.martop2em.marbottom4em
+      .slidersmallgfy.martop2em.marbottom5em
         .slide1of1
           #gfySingle0.gfy-flex
         .slide1of1
@@ -86,6 +102,9 @@ block content
           #gfySingle5.gfy-flex
 
       
+      //- .agameby
+      //-   p a game by
+
       .creditline
         .nachologo
           //- .nachobeard
@@ -98,3 +117,12 @@ block content
             * [Nacho](http://blog.nachobeard.com) Game, Code
             * [Anaïs](http://anais-maamar.tumblr.com/) Sprite Design
             * [Clairvoire](http://clairvoire.tumblr.com/) Animation
+
+      .copyright.martop2em
+        //- script(type='text/javascript').
+        //-   moment().format('dddd');
+        p 
+          | &copy; 2015 nachobeard
+          br
+          | site by 
+          a(href="http://splendorr.com") splendorr
