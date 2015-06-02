@@ -284,6 +284,32 @@ a
       line-height 1.2em
       
 .platforms
+  col(1)
+  margin-top 1em
+  // margin-bottom 0 
+  text-align center !important
+  // center(960px)
+  img
+    height 3em
+    width auto 
+  // .appstore
+  //   margin-right 1em
+  .googleplay
+    padding-left 1em
+    
+  +below(700px)
+    margin-top 1
+    stack()
+    col(6/8, offset: 1/8)
+  +below(500px)
+    col(1)
+    img
+      height 2.5em
+      width auto 
+    .googleplay
+      padding-left .25em
+    
+
 
 .video
   transition: all .5s ease
@@ -316,7 +342,7 @@ a
     
   +below(700px)
     text-align center
-    margin-top 1em
+    // margin-top 1em
     unshift()
     stack()
     col(1)
