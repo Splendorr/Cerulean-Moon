@@ -28,9 +28,6 @@ $(document).ready(function(){
 
   $blankhtml = " ";
 
-  var gfySingleMax = 5;
-  var gfyTripleMax = 1;
-
   // BEGIN gfySwapSmall
   /* New re-factoring for single GFYs */
   var activeSingleGfyVar = '';
