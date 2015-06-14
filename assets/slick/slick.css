@@ -162,8 +162,10 @@
     position: relative;
 
     display: inline-block;
-
-    width: 20px;
+    
+    /*Splendorr*/
+    /*width: 20px;*/
+    width: 10px;
     height: 20px;
     margin: 0 5px;
     padding: 0;
@@ -176,8 +178,10 @@
     line-height: 0;
 
     display: block;
-
-    width: 20px;
+    
+    /*Splendorr*/
+    width: 10px;
+    /*width: 20px;*/
     height: 20px;
     padding: 5px;
 
@@ -207,8 +211,10 @@
     position: absolute;
     top: 0;
     left: 0;
-
-    width: 20px;
+    
+    /*Splendorr*/
+    width: 10px;
+    /*width: 20px;*/
     height: 20px;
 
     content: '•';
