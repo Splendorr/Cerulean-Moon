@@ -84,6 +84,67 @@ $(document).ready(function(){
   // console.log(makeGfySingle(-1));
   // console.log(unloadGfySingle(0-1));
 
+  /* BEGIN new gfySwapDouble */
+
+  var gfyDoubleStartID = 0;
+  var domDoubleGfyOne;
+
+  var currentLargeSlide = $('.sliderhowto').slick('slickCurrentSlide');
+
+  var makeGfyDoubleGroup = function (slideIndex) {
+    if (slideIndex > gfyDoubleMax) {
+      slideIndex = 0;
+    } else if (slideIndex < 0 ) {
+      slideIndex = gfyDoubleMax;
+    } else { }
+    gfyDoubleStartID = slideIndex * 2;
+  };
+
+  var setGfyDoubleDomId = function (startID) {
+    domDoubleGfyOne = '#gfySingle' + startID + 'double';
+  };
+
+  var unloadGfyOneOfDouble = function (numeral) {
+    setGfyDoubleDomId(numeral);
+    $(domDoubleGfyOne).html($blankhtml);
+    console.log('unloadGfyOneOfDouble UNloading', domDoubleGfyOne);
+  };
+
+  var loadGfyOneOfDouble = function (numeral) {
+    setGfyDoubleDomId(numeral);
+    $(domDoubleGfyOne).html(
+      "<img class='gfyitem' data-id='" + gfySingles[numeral] + "' data-controls='false' data-dot='false' data-perimeter='false' />"
+    );
+    console.log('loadGfyOneOfDouble Loading', domDoubleGfyOne);
+  };
+
+  var unloadGfyDouble = function (groupID) {
+    makeGfyDoubleGroup(groupID);
+    unloadGfyOneOfDouble(gfyDoubleStartID);
+    unloadGfyOneOfDouble(gfyDoubleStartID + 1);
+    console.log('unloadGfyDouble UNloading groupID', groupID);
+  };
+
+  var loadGfyDouble = function (groupID) {
+    makeGfyDoubleGroup(groupID);
+    loadGfyOneOfDouble(gfyDoubleStartID);
+    loadGfyOneOfDouble(gfyDoubleStartID + 1);
+    console.log('loadGfyDouble LOading groupID', groupID);
+  };
+
+  var gfySwapDouble = function (numeral) {
+    loadGfyDouble(numeral);
+    unloadGfyDouble(numeral - 1);
+    unloadGfyDouble(numeral + 1);
+
+    console.log('gfySwapDouble StartID', numeral);
+    gfyCollection.init();
+
+  };
+
+  // End gfySwapDouble
+  
+  
   /* BEGIN new gfySwapTriple */
 
   var gfyTripleStartID = 0;
@@ -144,11 +205,14 @@ $(document).ready(function(){
 
   };
 
+  // End gfyTriple
+
   function gfyLoad() {
 
     console.log('SLIDES: ran gfyLoad');
     loadGfySingle(0);
-    loadGfyTriple(0);
+    // loadGfyTriple(0);
+    loadGfyDouble(0);
 
     gfyCollection.init();
   } // End gfyLoad()
@@ -156,7 +220,8 @@ $(document).ready(function(){
   $('.responsiveslider').on('afterChange', function(event, slick, currentSlide){
     // console.log(nextSlide);
     console.log('current large slick slide:', currentSlide);
-    gfySwapTriple(currentSlide);
+    // gfySwapTriple(currentSlide);
+    gfySwapDouble(currentSlide);
   });
 
   $('.slidersmallgfy').on('afterChange', function(event, slick, currentSlide){

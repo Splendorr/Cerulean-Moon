@@ -28,3 +28,4 @@ var gfySingleMax = 5;
 
 // This is the number of 3-GFY slides, also starting from 0. 0 = one slide, 1 = two slides, etc.
 var gfyTripleMax = 1;
+var gfyDoubleMax = 2;
