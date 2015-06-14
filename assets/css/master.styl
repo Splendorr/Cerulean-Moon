@@ -149,37 +149,11 @@ body
   background-image url("../img/BEACH_AREA_fullview_filled_1920_tall_gradient_TALLER.png")
   background-position center top
   background-repeat no-repeat 
-  // background-color #E6FBF6
-/*  background: linear-gradient(
-                              top, 
-                              #00B6C7, 
-                              30% #00B6C7, 
-                              50% #46CFB7, 
-                              
-                              50% #46CFB7, //
-                              60% #46CFB7,
-                              
-                              60% #61D3BB, //
-                              63% #61D3BB,
-                               
-                              63% #46CFB7, // 
-                              70% #46CFB7,
-                              
-                              70% #61D3BB, //
-                              72% #61D3BB,
-                              
-                              72% #15BEA0, //
-                              73% #15BEA0,
-                              
-                              73% #58CFB6, //
-                              74% #58CFB6,
-                              
-                              74% #15BEA0, //
-                              80% #15BEA0,
-                              
-                              80% #00AF8A
-                            )
-*/                            
+  // background-color #E6FBF6   
+    
+  +below(800px)
+    background-position center -140px
+                   
 img
   max-width 100% 
   
@@ -259,10 +233,14 @@ a
   transition: all .5s ease
   
   color: white
+  text-shadow: 0px 2px rgba(0,0,0,.4);
   
   p
     font-size 1.8em
     line-height 1.1em 
+    
+  h1
+    font-size 1.8em
   
   column(2/5, offset: 3/10)
   text-align center !important
@@ -327,6 +305,8 @@ a
   // transition: all .5s ease
     
   color white
+  
+  text-shadow: 0px 2px rgba(0,0,0,.4);
   
   span(1/4)
   shift(3/4, span)
@@ -406,7 +386,15 @@ a
     padding-bottom 0 !important
     margin-bottom 0 !important
     color black
+    
+.signupto
+  text-align center
+  text-shadow: 0px 2px rgba(255,255,255,.6);
+  font-size 1.4em 
   
+  +below(700px)
+    font-size 0.8em 
+
   
 // .field
 //   field(right, 100%)
@@ -625,6 +613,7 @@ div.gfyitem {
   font-size 1.7em
   // line-height 1.1em 
   line-height 1.4em 
+  text-shadow: 0px 1px rgba(169, 245, 226, 0.8);
   
   span(3/7)
   +below(900px)
@@ -658,6 +647,7 @@ div.gfyitem {
 .copyright
   col(1)
   text-align center
+  text-shadow: 0px 1px rgba(169, 245, 226, 0.8);
     
     
 .halfoffset
