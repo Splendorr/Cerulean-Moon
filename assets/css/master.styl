@@ -487,7 +487,8 @@ input#mce-EMAIL, input#mc-embedded-subscribe
 .responsiveslider
   // col(2/3, offset: 1/6)
   // col(16/24, offset: 4/24)
-  responsivewidth = .63
+  responsivewidth = .65
+  // responsivewidth = .73
   col(responsivewidth, offset: (1 - responsivewidth)/2)
   // col(1)
   // text-align center !important
@@ -505,14 +506,19 @@ input#mce-EMAIL, input#mc-embedded-subscribe
     
 .slide1of2
   // col(1/3, offset: 1/6, gutter: 0)
-  col(1/2, gutter: 0)
+  // col(1/2, gutter: 0)
+  col(1/2)
+  // margin-right: 1em
 .slide2of2
   // col(1/3, gutter: 0)
-  col(1/2, gutter: 0)
+  // col(1/2, gutter: 0)
+  col(1/2)
   
 .slidersmallgfy
   // col(28/32, offset: 2/32)
-  col(26/32, offset: 3/32)
+  // col(26/32, offset: 3/32)
+  slidersmallwidth = .8125
+  col(slidersmallwidth, offset: (1 - slidersmallwidth)/2)
   // text-align center
   display none !important
   +below(700px)
