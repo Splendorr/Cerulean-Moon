@@ -291,7 +291,7 @@ a
 
 .video
   transition: all .5s ease
-  margin-top 1em
+  // margin-top 1em
   
   span(1/2)
   +below(700px)
@@ -628,14 +628,18 @@ div.gfyitem {
   +below(700px)
     // stack()
     col(2/3, offset: 1/6)
+    text-align center
     font-size 1.9em
     padding-left 0em
   +below(600px)
-    font-size 1.5em
-  +below(500px)
-    stack()
     col(1)
-    // center(320px)
+    text-align center
+    font-size 1.5em
+  // +below(500px)
+    // text-align center
+    // stack()
+    // col(1)
+    // center(900px)
     // text-align center
   
   // .stable
