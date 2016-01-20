@@ -238,32 +238,60 @@ a
   margin-bottom 0
   padding-bottom 0
   
-  p
-    font-size 1.8em
-    // line-height 1.1em 
-    line-height 1.1em 
-    
-  h1
-    font-size 1.8em
-  
-  column(2/5, offset: 3/10)
+  column(3/5, offset: 2/10)
   text-align center !important
+  
   +below(800px)
-    column(3/5, offset: 2/10)
+    // column(3/5, offset: 2/10)
+    col(7/8, offset: 1/16)
   
   +below(750px)
     stack()
-    col(1/2, offset: 1/4)
+    // col(1/2, offset: 1/4)
+    col(7/8, offset: 1/16)
+        
+  +below(550px)
+    col(7/8, offset: 1/16)
+    // col(1)
+
+.taglinetext
+  p
+    font-size 2em
+    line-height 1.1em 
+  h1
+    font-size 1.8em
+  +below(750px)
     padding-top 0em 
+    p
+      font-size 1.6em
+      line-height 1.2em
+  +below(550px)
     p
       font-size 1.4em
       line-height 1.2em
-  +below(550px)
-    col(7/8, offset: 1/16)
-    padding-top 0em 
+
+.comingsoontext
     p
-      font-size 1.2em
-      line-height 1.2em
+      font-size 1.4em
+      // line-height 1.1em 
+      line-height 0.2em 
+      padding-top 1em
+       
+    h1
+      font-size 1.8em
+    +below(750px)
+      padding-top 0em 
+      p
+        font-size 1.2em
+        // line-height 1.2em
+        line-height 1em 
+        padding-top 1em
+    +below(550px)
+      // padding-top .75em 
+      p
+        font-size 1.0em
+        // line-height 1.2em
+        line-height 1em
       
 .platforms
   col(1)
@@ -274,7 +302,7 @@ a
   text-align center !important
   // center(960px)
   img
-    height 4em
+    height 3em
     width auto 
   // .appstore
   //   margin-right 1em
@@ -283,11 +311,11 @@ a
   .padleft
     padding-left 1.5em
     
-  +below(700px)
+  +below(750px)
     margin-top 1
     stack()
     col(6/8, offset: 1/8)
-  +below(500px)
+  +below(550px)
     col(1)
     img
       height 2.5em
@@ -352,7 +380,16 @@ a
     li
       display inline
       padding-right .5em
-  +below(500px)
+  +below(550px)
+    i
+      min-width 1.2em 
+    ul
+      font-size .9em 
+      // inline-list: 1em
+      // center(280px)
+    li
+      padding-right 0.25em
+  +below(450px)
     i
       min-width 1.2em 
     ul
