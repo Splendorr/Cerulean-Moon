@@ -32,7 +32,8 @@ var dev_path =
     styl: 'dev/styl/',
     jade: 'dev/jade/',
     js:   'dev/js/',
-    img:  'dev/img/'
+    img:  'dev/img/',
+    slick:  'dev/slick/'
   }
 
 
@@ -42,7 +43,8 @@ var build_path =
     css:  'build/css/',
     html: 'build/html/',
     js:   'build/js/',
-    img:  'build/img/'
+    img:  'build/img/',
+    slick:  'build/slick/'
   }
 
 // Compile Jade
@@ -97,6 +99,12 @@ gulp.task('images', function(){
     .pipe(browsersync.reload({stream: true}));
 });
 
+gulp.task('slick', function(){
+  gulp.src([dev_path.slick + '**/**/*'])
+    .pipe(gulp.dest(build_path.slick))
+    .pipe(browsersync.reload({stream: true}));
+});
+
 // Start Browser-Sync server
 gulp.task('browsersync-server', function(){
     browsersync.init(null, {
@@ -136,6 +144,6 @@ gulp.task('watch', function(){
 //
 
 gulp.task('default', [
-  'vendor', 'jade', 'stylus', 'images', 'js', 'browsersync-server', 'watch',
+  'vendor', 'jade', 'stylus', 'images', 'js', 'slick', 'browsersync-server', 'watch',
   // 'vendor', 'jade', 'stylus', 'js', 'browsersync-server', 'watch',
 ]);
