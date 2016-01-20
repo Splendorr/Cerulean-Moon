@@ -253,26 +253,52 @@ a
   +below(550px)
     col(7/8, offset: 1/16)
     // col(1)
+      
+// p.titletext
+//   padding-top 0
+//   font-variant bold
+//   font-size 2em
+//   line-height 1.1em 
+//   +below(750px)
+//     padding-top 0em 
+//         font-size 1.6em
+//       line-height 1.2em
+//   +below(550px)
+//         font-size 1.4em
+//       line-height 1.2em
 
 .taglinetext
+  h1
+    // font-size 3.3em
+    font-size 3.9em
+    line-height .9em
+    padding-top 0
+    padding-bottom 0
+    margin-top .5em
+    margin-bottom 0
   p
     font-size 2em
     line-height 1.1em 
-  h1
-    font-size 1.8em
   +below(750px)
     padding-top 0em 
+    h1
+      font-size 3.2em
+      line-height 1em
     p
-      font-size 1.6em
+      font-size 1.5em
       line-height 1.2em
   +below(550px)
+    h1
+      font-size 2.5em
+      line-height 1em
     p
+      padding-top .1em 
       font-size 1.4em
       line-height 1.2em
 
 .comingsoontext
     p
-      font-size 1.4em
+      font-size 2em
       // line-height 1.1em 
       line-height 0.2em 
       padding-top 1em
@@ -282,16 +308,16 @@ a
     +below(750px)
       padding-top 0em 
       p
-        font-size 1.2em
+        font-size 1.8em
         // line-height 1.2em
-        line-height 1em 
+        line-height .25em 
         padding-top 1em
     +below(550px)
       // padding-top .75em 
       p
-        font-size 1.0em
+        font-size 1.4em
         // line-height 1.2em
-        line-height 1em
+        line-height .5em
       
 .platforms
   col(1)
@@ -312,7 +338,8 @@ a
     padding-left 1.5em
     
   +below(750px)
-    margin-top 1
+    margin-top 0em
+    padding-top 0
     stack()
     col(6/8, offset: 1/8)
   +below(550px)
