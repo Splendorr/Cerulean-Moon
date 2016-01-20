@@ -235,8 +235,12 @@ a
   color: white
   text-shadow: 0px 2px rgba(0,0,0,.4);
   
+  margin-bottom 0
+  padding-bottom 0
+  
   p
     font-size 1.8em
+    // line-height 1.1em 
     line-height 1.1em 
     
   h1
@@ -263,17 +267,21 @@ a
       
 .platforms
   col(1)
-  margin-top 1em
-  // margin-bottom 0 
+  // margin-top 1em
+  padding-top 0
+  margin-top 0
+  margin-bottom 2em 
   text-align center !important
   // center(960px)
   img
-    height 3em
+    height 4em
     width auto 
   // .appstore
   //   margin-right 1em
   .googleplay
     padding-left 1em
+  .padleft
+    padding-left 1.5em
     
   +below(700px)
     margin-top 1
@@ -284,6 +292,8 @@ a
     img
       height 2.5em
       width auto 
+    .padleft
+      padding-left 1em
     .googleplay
       padding-left .25em
 
