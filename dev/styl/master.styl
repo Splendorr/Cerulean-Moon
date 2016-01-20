@@ -89,7 +89,8 @@ beachsand        = #9DE8D4
   overflow: hidden;
 
   &.widescreen
-    padding-bottom: 56.34%
+    // padding-bottom: 56.34%
+    padding-bottom: 56.33%
   &.vimeo
     padding-top: 0
 
@@ -366,7 +367,9 @@ a
   transition: all .5s ease
   // margin-top 1em
   
-  span(1/2)
+  // span(1/2)
+  span(10/16)
+  // shift(1/16, span)
   +below(700px)
     margin-top 0
     stack()
@@ -381,8 +384,10 @@ a
   
   text-shadow: 0px 2px rgba(0,0,0,.4);
   
-  span(1/4)
-  shift(3/4, span)
+  // span(1/4)
+  // shift(3/4, span)
+  span(3/16)
+  shift(13/16, span)
   
   i
     min-width 1.5em
