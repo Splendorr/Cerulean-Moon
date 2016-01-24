@@ -368,7 +368,7 @@ a
   // margin-top 1em
   
   // span(1/2)
-  span(10/16)
+  span(10/16, offset: 3/16)
   // shift(1/16, span)
   +below(700px)
     margin-top 0
@@ -386,23 +386,43 @@ a
   
   // span(1/4)
   // shift(3/4, span)
-  span(3/16)
-  shift(13/16, span)
   
-  i
-    min-width 1.5em
-    text-align center
+  // span(3/16)
+  // shift(13/16, span)
   
-  ul
-    list-style none
-    padding-left 0.5em
-    line-height 1.5em 
+  // i
+  //   min-width 1.5em
+  //   text-align center
+  
+  // ul
+  //   list-style none
+  //   padding-left 0.5em
+  //   line-height 1.5em 
     
-  +below(700px)
+  text-align center
+  stack()
+  span(10/16, offset: 3/16)
+  ul
+    display inline-block
+    font-size 1.2em 
+    // inline-list: 1em
+    // center(345px)
+  li
+    display inline
+  li.listpadright
+    padding-right 1.5em
+  i
+    min-width 1.2em
+  
+  +below(950px)
+    ul
+      font-size 1.1em 
+
+  +below(800px)
     text-align center
     // margin-top 1em
-    unshift()
-    stack()
+    // unshift()
+    // stack()
     col(1)
     ul
       display inline-block
@@ -411,7 +431,10 @@ a
       // center(345px)
     li
       display inline
+    li.listpadright
       padding-right .5em
+    i
+      min-width 1.2em
   +below(550px)
     i
       min-width 1.2em 
@@ -419,7 +442,7 @@ a
       font-size .9em 
       // inline-list: 1em
       // center(280px)
-    li
+    li.listpadright
       padding-right 0.25em
   +below(450px)
     i
@@ -428,11 +451,13 @@ a
       font-size 0.7em 
       // inline-list: 1em
       // center(280px)
-    li
-      padding-right 0.25em
+    li.listpadright
+      // padding-right 0.25em
+      padding-right 0.4em
         
   .centeredlist
-    text-align left
+    // text-align left
+    text-align center
     +below(700px)
       text-align center
     // width 100%
