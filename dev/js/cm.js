@@ -8,6 +8,8 @@ $(document).ready(function(){
     slidesToShow: 1,
     arrows: true,
     adaptiveHeight: false,
+    // edgeFriction: 0.15,
+    touchMove: false,
     // asNavFor: '.sliderhowto'
   });
 
@@ -19,6 +21,8 @@ $(document).ready(function(){
     arrows: true,
     dots: true,
     adaptiveHeight: false,
+    // edgeFriction: 0.15,
+    touchMove: false,
     // centerMode: true,
     // mobileFirst: true,
     // asNavFor: '.slidersmallheader'
