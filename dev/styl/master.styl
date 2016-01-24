@@ -714,7 +714,8 @@ div.gfyitem {
   
     
 .nachologo
-  span(2/6, offset: 1/6)
+  // span(3/9, offset: 1/9)
+  col(4/10, offset: 3/10)
   +below(700px)
     // stack()
     col(2/3, offset: 1/6)
@@ -736,27 +737,29 @@ div.gfyitem {
       color: linkgray
     
 .credits
-  padding-left 1em
+  // padding-left 1em
   
-  font-size 1.7em
+  font-size 1.475em
   // line-height 1.1em 
-  line-height 1.4em 
+  line-height 1.3em 
   text-shadow: 0px 1px rgba(169, 245, 226, 0.8);
+  // span(4/9)
+  col(5/9, offset: 2/9)
   
-  span(3/7)
   +below(900px)
     font-size 1.5em
   +below(800px)
     font-size 1.3em
   +below(700px)
     // stack()
-    col(2/3, offset: 1/6)
-    text-align center
+    // col(2/3, offset: 1/6)
+    col(1)
+    // text-align center
     font-size 1.9em
     padding-left 0em
   +below(600px)
     col(1)
-    text-align center
+    // text-align center
     font-size 1.5em
   // +below(500px)
     // text-align center
@@ -775,6 +778,13 @@ div.gfyitem {
   ul
     list-style none
     padding-left 0
+    
+  .creditnames
+    col(1/2)
+    text-align right
+  .creditwhats
+    col(1/2)
+    text-align left
     
 .copyright
   col(1)
