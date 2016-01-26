@@ -222,6 +222,25 @@ a
       height 5em
     +below(600px)
       height 3em
+  a
+    &:link 
+      // color: ranHair
+      text-decoration none
+      background-image: none
+      
+    &:hover 
+      background-image: none
+      // border-bottom: 1px dashed ranHair;
+    &:visited 
+      // color: linkgray
+      text-decoration none
+      background-image: none
+    &:active 
+      // color: linkgray
+      text-decoration none
+      background-image: none
+  
+
     
 
 .laurelpadright
@@ -518,6 +537,8 @@ a
       color: white
 
 .newsletter
+  padding-top 1em
+  padding-bottom 1em
   transition: all .5s ease
   span(1/2, offset: 1/4)
   +below(700px)
@@ -771,7 +792,7 @@ div.gfyitem {
     
 .credits
   // padding-left 1em
-  
+  margin-top 1em
   font-size 1.475em
   // line-height 1.1em 
   line-height 1.3em 
@@ -820,6 +841,7 @@ div.gfyitem {
     text-align left
     
 .copyright
+  margin-top 1em
   col(1)
   text-align center
   text-shadow: 0px 1px rgba(169, 245, 226, 0.8);
