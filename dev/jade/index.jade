@@ -2,14 +2,22 @@ extends layout
 
 block content
   .sidepadding
-    #container.bottompadding
+    //- #wideContainer
+    #narrowContainer.bottompadding
       .clearfix
+        .laurels
+          img.laurelpadright(src="img/laurel-stugan.png", alt="")
+          img.laurelpadright(src="img/laurel-akb.png", alt="")
+          img(src="img/laurel-ooi.png", alt="")
         .topmost
           //- .boxPlatform
           .martop1em
+            //- .leftAwards
+            //-   p awards
             .logo
               img(src="img/cm_logo_2x.png", alt="Cerulean Moon Logo")
-        
+            //- .rightAwards
+            //-   p awards
         
         .tagline.upcase
           //- .boxBGgrey1
