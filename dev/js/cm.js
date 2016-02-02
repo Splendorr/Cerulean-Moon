@@ -24,7 +24,8 @@ $(document).ready(function(){
     // edgeFriction: 0.15,
     touchMove: false,
     // centerMode: true,
-    // mobileFirst: true,
+    mobileFirst: true,
+    swipe: false,
     // asNavFor: '.slidersmallheader'
   });
 

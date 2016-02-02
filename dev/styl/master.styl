@@ -136,7 +136,7 @@ html
   min-height 100%
   // font-size 100%
   // line-height 1.5
-  // background-color #E6FBF6
+  background-color #10B1C5
   background: linear-gradient(
     top, 
     #10B1C5,
@@ -149,22 +149,26 @@ html
 body
   min-height 100% 
   background-image url("../img/BEACH_AREA_fullview_filled_1920_tall_gradient_TALLER.png")
-  background-position center top
+  // background-position center top
+  background-position center 150px
   background-repeat no-repeat 
   // background-color #E6FBF6   
     
   +below(800px)
-    background-position center 140px
+    background-position center 250px
                    
 img
   max-width 100% 
   
 p
   paragraph()
+  
+p, a, h1, h2, h3, ul, li
   font-kerning: normal;
+  font-weight: normal;
   
 a
-  &:link 
+  &:link
     // color: ranHair
     color: linkgray
     text-decoration none
@@ -211,7 +215,8 @@ a
   clearfix() 
   
 .laurels
-  margin-top 2em
+  // margin-top 2em
+  // padding-top 2em
   text-align center 
   margin-bottom 0em
   padding-bottom 0em 
@@ -220,7 +225,7 @@ a
     width auto
     +below(800px)
       height 5em
-    +below(600px)
+    +below(550px)
       height 3em
   a
     &:link 
@@ -249,6 +254,8 @@ a
     padding-right 1.5em
   +below(600px)
     padding-right 1em
+  +below(300px)
+    padding-right .25em
   
 .topmost
   transition: all .5s ease
@@ -330,8 +337,8 @@ a
   p
     font-size 2em
     line-height 1.1em 
-  +below(750px)
-    padding-top 0em 
+  +below(800px)
+    // padding-top 0em 
     h1
       font-size 3.2em
       line-height 1em
@@ -346,6 +353,15 @@ a
       padding-top .1em 
       font-size 1.4em
       line-height 1.2em
+      
+  +below(300px)
+    h1
+      font-size 2em
+      line-height 1em
+    p
+      padding-top .1em 
+      font-size 1.2em
+      line-height 1.1em
 
 .comingsoontext
     p
@@ -367,6 +383,12 @@ a
       // padding-top .75em 
       p
         font-size 1.4em
+        // line-height 1.2em
+        line-height .5em
+    +below(300px)
+      // padding-top .75em 
+      p
+        font-size 1.2em
         // line-height 1.2em
         line-height .5em
       
@@ -414,6 +436,8 @@ a
 
 
 .video
+  // text-align center
+  // max-width 720px
   transition: all .5s ease
   // margin-top 1em
   
@@ -455,19 +479,21 @@ a
   margin-top 0.5em
   ul
     display inline-block
-    font-size 1.2em 
+    font-size 1.15em 
     // inline-list: 1em
     // center(345px)
   li
     display inline
   li.listpadright
-    padding-right 1.5em
+    padding-right 1.25em
   i
     min-width 1.2em
   
-  +below(950px)
+  +below(1050px)
     ul
-      font-size 1.1em 
+      font-size 1em 
+    li.listpadright
+      padding-right .5em
 
   +below(800px)
     text-align center
@@ -477,13 +503,13 @@ a
     col(1)
     ul
       display inline-block
-      font-size 1em 
+      font-size .9em 
       // inline-list: 1em
       // center(345px)
     li
       display inline
     li.listpadright
-      padding-right .5em
+      padding-right .3em
     i
       min-width 1.2em
   +below(550px)
@@ -501,6 +527,18 @@ a
     ul
       font-size 0.7em
       padding-bottom 1em 
+      // inline-list: 1em
+      // center(280px)
+    li.listpadright
+      // padding-right 0.25em
+      padding-right 0.4em
+  +below(300px)
+    i
+      min-width 1.2em 
+    ul
+      font-size 1em
+      padding-bottom 1em
+      line-height 1.5em
       // inline-list: 1em
       // center(280px)
     li.listpadright
@@ -570,6 +608,8 @@ a
     font-size 0.9em 
   +below(500px)
     font-size 0.8em 
+  +below(300px)
+    font-size 1.2em 
 
   
 // .field
