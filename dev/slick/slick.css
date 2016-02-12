@@ -37,14 +37,18 @@
     /*Splendorr changed size*/
     /*width: 20px;*/
     /*height: 20px;*/
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 60px;
     /*width: 70px;*/
     /*height: 70px;*/
 
     margin-top: -10px;
+    /*margin-top: -40px;*/
     padding: 0;
-
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
     cursor: pointer;
 
     color: transparent;
@@ -52,7 +56,9 @@
     outline: none;
     background: transparent;
 }
-.slick-prev:hover,
+
+/*splendorr commented to make more touchable*/
+/*.slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus
@@ -67,7 +73,9 @@
 .slick-next:focus:before
 {
     opacity: 1;
-}
+}*/
+
+
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
 {
@@ -85,9 +93,10 @@
     /*font-size: 70px; */
     line-height: 1;
 
-    opacity: .75;
-    /*color: white;*/
-    color: black;
+    /*opacity: .75;*/
+    opacity: 1.0;
+    color: white;
+    /*color: black;*/
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

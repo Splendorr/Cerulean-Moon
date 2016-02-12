@@ -134,6 +134,7 @@ gulp.task('watch', function(){
   gulp.watch(dev_path.jade + '**/*.jade', ['jade']);
   gulp.watch(dev_path.styl + '**/*.styl', ['stylus']);
   gulp.watch([dev_path.img + '**/*'], ['images']);
+  gulp.watch([dev_path.slick + '**/**/*'], ['slick']);
   gulp.watch(dev_path.js + '**/*.js', ['js']);
 
   gulp.watch([dev_path.styl + 'vendor/*', dev_path.js + 'vendor/*'], ['vendor']);
