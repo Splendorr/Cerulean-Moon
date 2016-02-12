@@ -3,7 +3,8 @@ extends layout
 block content
   .sidepadding
     //- #wideContainer
-    #narrowContainer.bottompadding
+    //- #narrowContainer.bottompadding
+    #narrowContainer
       .clearfix
         .topmost
           //- .boxPlatform
@@ -67,13 +68,15 @@ block content
           //-   * [FACEBOOK]()
           //-   * [TUMBLR]()
           //-   * [PRESSKIT]()
-
+    
+    #wideContainer
       .video.marbottom1em
         //- .tall-flex-video
         .flex-video.widescreen.vimeo
           #player
           //- iframe(width="480", height="360", src="https://www.youtube.com/embed/WZfIJgGcDic?rel=0", frameborder="0", allowfullscreen="")
-
+    
+    #narrowContainer.bottompadding
       .newsletter
         p.upcase.signupto Get notified when the game is out!
         //- .field
