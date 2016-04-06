@@ -9,13 +9,15 @@ html
     //- uncomment if your site is responsive!
     meta(name="viewport" content="width=device-width, initial-scale=1")
     //- title= _path
-    title= "Cerulean Moon is a precision platformer where you move the world with your finger."
+    title= "Cerulean Moon is a jumpless platformer."
     script(src="js/jquery-1.11.1.min.js")
     script(src="slick/slick.min.js")
     link(rel='stylesheet', href='slick/slick.css')
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
     link(rel='shortcut icon', href='favicon.png')
-    != css()
+    
+    //- != css()
+    link(rel="stylesheet", href="css/master.css")
 
   body
     block content

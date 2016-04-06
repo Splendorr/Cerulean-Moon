@@ -2,40 +2,59 @@ extends layout
 
 block content
   .sidepadding
-    #container.bottompadding
+    //- #wideContainer
+    #narrowContainer.bottompadding
       .clearfix
         .topmost
           //- .boxPlatform
           .martop1em
+            //- .leftAwards
+            //-   p awards
             .logo
               img(src="img/cm_logo_2x.png", alt="Cerulean Moon Logo")
-        
+            //- .rightAwards
+            //-   p awards
+        .laurels
+          a(href="http://www.stugan.com")
+            img.laurelpadright(src="img/laurel-stugan.png", alt="")
+          a(href="http://akihabarablues.com/los-mejores-juegos-de-la-gamescom-2015-para-akb/")
+            img.laurelpadright(src="img/laurel-akb.png", alt="")
+          a(href="http://www.outofindex.org/#!Out-Of-Index-2015-The-official-Selections-선정작을-발표합니다-/ch59/557ecdff0cf2205db3a9acad")
+            img(src="img/laurel-ooi.png", alt="")
         
         .tagline.upcase
           //- .boxBGgrey1
           
-          :markdown
-            _**Cerulean Moon**_  
-            is a precision platformer where you move the world with your finger.
-            
-            **Coming in 2016**
+          .taglinetext
+            :markdown
+              #**Cerulean Moon**
+              is a jumpless platformer  
 
-      //- .platforms
-      //-   img.appstore(src="img/Download_on_the_App_Store_Badge_US-UK_135x40.svg", alt="Download on the iOS App Store")
-      //-   img.googleplay(src="img/en_generic_rgb_wo_60.png", alt="Get it on the Google Play Store")
+          .comingsoontext
+            :markdown
+              **Coming in 2016 to**
+
+      .platforms
+        img(src="img/steam-white-500.png", alt="Steam Logo")
+        img.padleft(src="img/ps-white-500.png", alt="PlayStation Logo")
+        img.padleft(src="img/apple-white-500.png", alt="Apple Logo")
+        img.padleft(src="img/android-white-500.png", alt="Android Logo")
+        //- img(src="img/platform-logos-one-row.png", alt="Steam logo, PlayStation logo, Apple logo, Android logo")
+        //- img.appstore(src="img/Download_on_the_App_Store_Badge_US-UK_135x40.svg", alt="Download on the iOS App Store")
+        //- img.googleplay(src="img/en_generic_rgb_wo_60.png", alt="Get it on the Google Play Store")
 
 
       .linklist
         .centeredlist
           ul
-            li
+            li.listpadright
               i.fa.fa-facebook-official
               a(href="https://www.facebook.com/nachobeard") FACEBOOK
-            li
+            li.listpadright
               i.fa.fa-twitter
               a(href="https://twitter.com/nachobeard") TWITTER
 
-            li
+            li.listpadright
               i.fa.fa-tumblr
               a(href="http://blog.nachobeard.com") TUMBLR
 
@@ -50,18 +69,19 @@ block content
           //-   * [PRESSKIT]()
 
       .video.marbottom1em
-        .tall-flex-video
+        //- .tall-flex-video
+        .flex-video.widescreen.vimeo
           #player
           //- iframe(width="480", height="360", src="https://www.youtube.com/embed/WZfIJgGcDic?rel=0", frameborder="0", allowfullscreen="")
 
-      .newsletter.marbottom1em
-        p.upcase.signupto sign up to our low-traffic mailing list
+      .newsletter
+        p.upcase.signupto Get notified when the game is out!
         //- .field
         // Begin MailChimp Signup Form
         #mc_embed_signup
           form#mc-embedded-subscribe-form.validate(action='//nachobeard.us11.list-manage.com/subscribe/post?u=d87f25b37c39da5b986167616&id=a4468a20d4', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
             #mc_embed_signup_scroll
-              input#mc-embedded-subscribe.button(type='submit', value='Subscribe', name='subscribe')
+              input#mc-embedded-subscribe.button(type='submit', value='Send', name='subscribe')
               span.formcontainer
                 input#mce-EMAIL.email(type='email', value='', name='EMAIL', placeholder='email address', required='')
                 // real people should not fill this in and expect good things - do not remove this or risk form bot signups
@@ -197,21 +217,34 @@ block content
       .creditline
         .nachologo
           //- .nachobeard
+          //- a(href="http://nachobeard.com")
+          //-   img(src="img/nacho_logo-cropped.png", alt="Nacho Beard Logo")
           a(href="http://nachobeard.com")
-            img(src="img/nacho_logo-cropped.png", alt="Nacho Beard Logo")
-        .credits.upcase
-          //- .boxBGgrey1
-          
-          :markdown
-            * [Nacho](http://blog.nachobeard.com) Game, Code
-            * [Anaïs](http://anais-maamar.tumblr.com/) Sprite Design
-            * [Clairvoire](http://clairvoire.tumblr.com/) Animation
+            img.pixelated(src="img/nacho_logo-cropped-chip.png", alt="Nacho Beard Logo")
+          a(href="http://nachobeard.com")
+            img(src="img/nacho_logo-cropped-text.png", alt="Nacho Beard Logo")
+        //- .credits
+        //-   .creditnames.upcase          
+        //-     :markdown
+        //-       * [Nacho](http://blog.nachobeard.com)
+        //-       * [Anaïs](http://anais-maamar.tumblr.com/)
+        //-       * [Clairvoire](http://clairvoire.tumblr.com/)
+        //-       * [Eirik](http://www.strotch.net)
+        //-       * [Martin](http://www.martinkvale.com)
 
-      .copyright.martop2em
+        //-   .creditwhats.upcase
+        //-     :markdown
+        //-       * Game, Code
+        //-       * Sprite Design
+        //-       * Animation
+        //-       * Music
+        //-       * Sound FX
+
+      .copyright
         //- script(type='text/javascript').
         //-   moment().format('dddd');
         p 
-          | &copy; 2015 nachobeard
+          | &copy; 2015–2016 nachobeard
           br
           | site by 
           a(href="http://splendorr.com") splendorr

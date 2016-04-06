@@ -1,0 +1,1303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"makeG",
+				"makeGfyTripleGroup"
+			],
+			[
+				"gfysw",
+				"gfySwapSmall"
+			],
+			[
+				"make",
+				"makeGfySingle"
+			],
+			[
+				"load",
+				"loadGfySingle"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"slider",
+				"sliderhowto"
+			],
+			[
+				"gfys",
+				"gfys"
+			],
+			[
+				"titles",
+				"titlesconcat"
+			],
+			[
+				"overflo",
+				"overflow-y"
+			],
+			[
+				"tick",
+				"tickertext2"
+			],
+			[
+				"ul",
+				"ul"
+			],
+			[
+				"large",
+				"large"
+			],
+			[
+				"bal",
+				"ballsdiv"
+			],
+			[
+				"page",
+				"pageheight"
+			],
+			[
+				"parade",
+				"paradegradbg"
+			],
+			[
+				"inlined",
+				"inlineDashPattern"
+			],
+			[
+				"inline",
+				"inlineDashTheDash"
+			],
+			[
+				"dash",
+				"dashpattern"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"gfySwa",
+				"gfySwapSimple"
+			],
+			[
+				"gfy5a",
+				"gfy5active"
+			],
+			[
+				"blank",
+				"blankhtml"
+			],
+			[
+				"inti",
+				"initialGfyDetach"
+			],
+			[
+				"curre",
+				"currentSlide"
+			],
+			[
+				"ship",
+				"shipitself"
+			],
+			[
+				"vbship",
+				"vbshipemblem"
+			],
+			[
+				"group",
+				"groupedlayers"
+			],
+			[
+				"banner",
+				"bannertext"
+			],
+			[
+				"logo",
+				"logoGroup"
+			],
+			[
+				"bann",
+				"bannertext"
+			],
+			[
+				"overf",
+				"overflow-x"
+			],
+			[
+				"gcs",
+				"gcs1team2"
+			],
+			[
+				"rec",
+				"rectangle"
+			],
+			[
+				"stro",
+				"strokeWidth"
+			],
+			[
+				"first",
+				"firstvideo"
+			],
+			[
+				"detach",
+				"detachTemp"
+			],
+			[
+				"prev",
+				"prevBodyClassConcat"
+			],
+			[
+				"chan",
+				"changeBodyColor"
+			],
+			[
+				"bodyClass",
+				"bodyClassRand"
+			],
+			[
+				"body",
+				"bodyClassRand"
+			],
+			[
+				"bodyClas",
+				"bodyClassRand"
+			],
+			[
+				"gradi",
+				"gradientbg"
+			],
+			[
+				"fixed",
+				"fixedcontent"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"simplemar",
+				"simplemarquee"
+			],
+			[
+				"archive",
+				"archive-list"
+			],
+			[
+				"arc",
+				"archive-list"
+			],
+			[
+				"white",
+				"white"
+			],
+			[
+				"ove",
+				"overflow-x"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"text-s",
+				"text-decoration-style"
+			],
+			[
+				"backg",
+				"background-attachment"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"p",
+				"p	padding"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"webkit-backgroun",
+				"webkit-background-size"
+			],
+			[
+				"pos",
+				"background-position"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bcwood",
+				"bcwooddark"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bcte",
+				"bctextlight"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bd",
+				"bcwooddark"
+			],
+			[
+				"bc",
+				"bcwooddark"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"bcwoo",
+				"bcwoodcarve"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"marg",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3746,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 482,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 51,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/jade/layout.jade",
+			"settings":
+			{
+				"buffer_size": 997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/jade/index.jade",
+			"settings":
+			{
+				"buffer_size": 8342,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/js/cm.js",
+			"settings":
+			{
+				"buffer_size": 7923,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/js/vars.js",
+			"settings":
+			{
+				"buffer_size": 1381,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/slick/slick.css",
+			"settings":
+			{
+				"buffer_size": 5645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/styl/master.styl",
+			"settings":
+			{
+				"buffer_size": 20003,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/styl/_settings.styl",
+			"settings":
+			{
+				"buffer_size": 2049,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 49.0,
+		"selected_items":
+		[
+			[
+				"from 0",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"from",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"trailing",
+				"Whitespace: Remove Trailing Whitespace"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 322.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/build/css/master.css",
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/assets/css/_settings.styl",
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/assets/css/master.styl",
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/assets/js/cm.js",
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/assets/js/vars.js",
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/views/index.jade",
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/views/layout.jade",
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/app.coffee",
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/package.json",
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/assets/slick/slick.css",
+		"/Users/simolinic/Dropbox/Public/squire-teaser-site/wipSquireTeaser/webfontkit-20150829-193744/stylesheet.css",
+		"/Users/simolinic/Dropbox/Public/cerulean-moon/app.production.coffee",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation/components/_global.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation/components/_visibility.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/style8superwide.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation/components/_forms.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation/components/_buttons.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation/components/_flex-video.scss",
+		"/Users/simolinic/Library/Caches/Cleanup At Startup/Transmit/9B3DAE2E-5F08-46CD-9C67-3B4DC5ACBAD8/style.css",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/snaptest5ballparade.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/app7.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/snapteststyle-cleanup.scss",
+		"/Users/simolinic/Library/Application Support/Sublime Text 2/Packages/Text Pastry/Default (OSX).sublime-keymap",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/gfyswap-scratchpaper.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/gfyswap-scratchpaper.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index08-colors.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/NodeEval::Output",
+		"/Users/simolinic/Library/Application Support/Sublime Text 2/Packages/NodeEval/NodeEval.sublime-settings",
+		"/Users/simolinic/Library/Application Support/Sublime Text 2/Packages/User/NodeEval.sublime-settings",
+		"/Users/simolinic/Library/Application Support/Sublime Text 2/Packages/User/JavaScript-Node-Sublime.sublime-build",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/app8.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/snapsuperwide.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation2.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index22-gfycat.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index23-gfyDetach.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/slick/slick.css",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation/components/_grid2.scss",
+		"/Users/simolinic/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/rubyworkshop.rb",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/rubyworkshop.rb",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/hamlworkshop.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation/_settings.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/partials/threeboxes2superwide.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/partials/toprow.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation/components/_grid.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/style7.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/partials/footer.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/app9snapmerge.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/jquery.bgscroll.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/partials/slickslider2.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/partials/mailchimp.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/slick/slick.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/slick/slick-theme.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/snaptest4.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/slick/slick-theme.css",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/slick1.3/slick.css",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/app5.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/snaptest.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/snapteststyle.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/snaptest3.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/snaptest2.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/snaptest.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index21-Skrollr.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/jquery.simplemarquee.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index20-gifcircles.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/_colors.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/style3.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/colorcycle2.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index17b-Rearranging2-Style5-NoPara.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/jquery.marquee.min.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/foundation/_functions.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index10-verbcomicchecker.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index09-verbcomic.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/TitleBarTests.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index7-refactor.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index6-morestuff.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index5-moretumblr.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index4-tumblr.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index3-addingcontent.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/index2-basics.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/js/foundation/foundation.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/style2.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/Build/assets/css/style.css",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/Build/index4-tumblr.html",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/img/consoles/ps4-500-white.png",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/assets/css/normalize.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/VIDEOBALL V5 Static/includes/_footer.html",
+		"/Users/simolinic/Library/Caches/Cleanup At Startup/Transmit/462C4B02-7987-45BC-B6D5-361EBCB4CD5F/55555.css",
+		"/Users/simolinic/Library/Caches/Cleanup At Startup/Transmit/CB4EC89C-A1EC-489E-A085-38772FBADA5D/header.php",
+		"/Users/simolinic/Library/Caches/Cleanup At Startup/Transmit/0916BFB6-AA73-4540-AC99-3AB9FD725783/style.css",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/Tuffy V1/assets/js/player.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/Tuffy V1/index.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/TENbyEIGHT V2 + YouTube JS/assets/js/fittext.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/TENbyEIGHT V2 + YouTube JS/assets/js/app.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/TENbyEIGHT V2 + YouTube JS/assets/css/foundation/_variables.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/TENbyEIGHT V2 + YouTube JS/assets/css/foundation.scss",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/TENbyEIGHT V2 + YouTube JS/index-V9-2ndMute.haml",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/TENbyEIGHT V2 + YouTube JS/assets/js/sgtbvis-V7-youtubejs.js",
+		"/Users/simolinic/Dropbox/Public/Action Button Sites/TENbyEIGHT V2 + YouTube JS/assets/css/style.scss",
+		"/Users/simolinic/Dropbox/Public/SkelefactorCom V2 - Add Bugspeed/bugspeed.haml",
+		"/Users/simolinic/Dropbox/Public/SkelefactorCom V2 - Add Bugspeed/bugspeedparallax.haml",
+		"/Users/simolinic/Dropbox/Public/SkelefactorCom V2 - Add Bugspeed/assets/js/jquery.bgscroll.js",
+		"/Users/simolinic/Dropbox/Public/SkelefactorCom V2 - Add Bugspeed/assets/js/jquery.backgroundpos.js",
+		"/Users/simolinic/Dropbox/Public/SkelefactorCom V2 - Add Bugspeed/assets/css/foundation.css",
+		"/Users/simolinic/Dropbox/Public/SkelefactorCom V2 - Add Bugspeed/assets/js/app.js",
+		"/Users/simolinic/Dropbox/Public/SkelefactorCom V2 - Add Bugspeed/assets/js/bgscroll.js",
+		"/Users/simolinic/Dropbox/Public/SkelefactorCom V2 - Add Bugspeed/assets/i/nearClouds.png",
+		"/Users/simolinic/Dropbox/Public/zggrt V1/humans.txt",
+		"/Users/simolinic/Dropbox/Public/zggrt V1/index-beside-media.haml",
+		"/Users/simolinic/Dropbox/Public/zggrt V1/index-stack-media.haml",
+		"/Users/simolinic/Dropbox/Public/zggrt V1/assets/css/normalize.scss",
+		"/Users/simolinic/Dropbox/Public/zggrt V1/assets/css/foundation/_variables.scss",
+		"/Users/simolinic/Dropbox/Public/zggrt V1/index.haml",
+		"/Users/simolinic/Dropbox/Public/zggrt V1/index-beside.haml",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/index_lav_3rdline.haml",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/index_lav_3rdline_kirby_white.haml",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/assets/js/starfield-lav-img2-kirby-white.js",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/starstest.html",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/assets/js/starsjsreadme.txt",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/assets/js/starfield-lav-imggraft.js",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/assets/js/starfield-lav-img2.js",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/index_lav_3rdline_kirby.haml",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/assets/js/starfield-lav-img2-kirby.js",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/assets/js/starfield-lav-img2-white.js",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/index_lav_3rdline_white.haml",
+		"/Users/simolinic/Dropbox/Public/ABE Self-V5 + new stars/assets/js/starfield.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"makeGfySingle",
+			"arrayIn",
+			"video",
+			"slick",
+			"button",
+			"transition",
+			"animate",
+			"0",
+			"shadow",
+			"hover",
+			".video",
+			"video",
+			"yt",
+			"clear",
+			" li",
+			"li",
+			"li ",
+			"linklist",
+			"taglinete",
+			"tagline",
+			"arial_narro",
+			"url('",
+			"pixil",
+			"pixel",
+			"font-face",
+			"5em",
+			".video",
+			"video",
+			"taglinete",
+			"linklist",
+			"font-weight",
+			"font",
+			"font-weight",
+			"link",
+			"laurels",
+			"link",
+			"grad",
+			"gradie",
+			"pad",
+			"padding",
+			"img",
+			"height",
+			"html",
+			"monospace",
+			"font",
+			"font-face",
+			"span",
+			"listpad",
+			"subscri",
+			"0.15",
+			"afterChange",
+			".video",
+			"flex",
+			"  p\n",
+			"social",
+			"line-height 0em",
+			"platform",
+			"tagline",
+			"shadow",
+			"true",
+			"ready",
+			"gradient",
+			"youtube",
+			"player",
+			"gradient",
+			"font",
+			"shadow",
+			"link",
+			"fonts",
+			"svg",
+			"#gfySingle0triple",
+			"gfy",
+			"transf",
+			"scale",
+			"shadow",
+			"Projectile",
+			"projectile",
+			"esrb",
+			"bulletslide",
+			"//",
+			" data-controls='false' data-dot='false' data-perimeter='false' />\"",
+			"\"<img class='gfyitem' data-id=",
+			"30",
+			"online",
+			"line",
+			"video",
+			"collapse",
+			"postfix",
+			"element-invisible",
+			"gfyflex",
+			"player",
+			"slick",
+			"ol",
+			"li,",
+			"li ",
+			"style",
+			"video",
+			"flex-video",
+			"video",
+			"flex",
+			"flex-video",
+			"select",
+			"hover",
+			"$default-float",
+			"default-float",
+			"flex-video",
+			"flex",
+			"html",
+			"animate",
+			"scale",
+			"hover",
+			"hvoer",
+			"svg",
+			"rays",
+			"select",
+			"timeline",
+			"animate",
+			"snap",
+			"youtube",
+			"abelogo",
+			"gfyswapsmall",
+			"gfyload",
+			"gfySwapTriple",
+			"arrayIndex",
+			"gfySingleMax",
+			"slidersmallgfy",
+			"slidersmallhead",
+			"slidersmallgfy"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"COMMERCIAL"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"settings":
+					{
+						"buffer_size": 3746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3138,
+								3138
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 51,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dev/jade/layout.jade",
+					"settings":
+					{
+						"buffer_size": 997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								788,
+								788
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dev/jade/index.jade",
+					"settings":
+					{
+						"buffer_size": 8342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3225,
+								3225
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2145.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "dev/js/cm.js",
+					"settings":
+					{
+						"buffer_size": 7923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6353,
+								6353
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2646.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dev/js/vars.js",
+					"settings":
+					{
+						"buffer_size": 1381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								535
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "dev/slick/slick.css",
+					"settings":
+					{
+						"buffer_size": 5645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1792,
+								1792
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 302.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "dev/styl/master.styl",
+					"settings":
+					{
+						"buffer_size": 20003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13114,
+								14037
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 10921.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "dev/styl/_settings.styl",
+					"settings":
+					{
+						"buffer_size": 2049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1191,
+								1193
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic Next (Colorcoded).tmTheme",
+							"colorcode": true,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.33,
+			0.66,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 344.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 102.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"cm.js",
+				"assets/js/cm.js"
+			],
+			[
+				"sty8",
+				"assets/css/style8superwide.scss"
+			],
+			[
+				"form",
+				"assets/css/foundation/components/_forms.scss"
+			],
+			[
+				"button",
+				"assets/css/foundation/components/_buttons.scss"
+			],
+			[
+				"visi",
+				"assets/css/foundation/components/_visibility.scss"
+			],
+			[
+				"visib",
+				"assets/css/foundation/components/_visibility.scss"
+			],
+			[
+				"flex-video",
+				"assets/css/foundation/components/_flex-video.scss"
+			],
+			[
+				"flex",
+				"assets/css/foundation/components/_flex-video.scss"
+			],
+			[
+				"index",
+				"index08-colors.haml"
+			],
+			[
+				"superwi",
+				"snapsuperwide.haml"
+			],
+			[
+				"global",
+				"assets/css/foundation/components/_global.scss"
+			],
+			[
+				"foundation",
+				"assets/css/foundation2.scss"
+			],
+			[
+				"forms",
+				"assets/css/foundation/components/_forms.scss"
+			],
+			[
+				"foundat",
+				"assets/css/foundation2.scss"
+			],
+			[
+				"ind22",
+				"index22-gfycat.haml"
+			],
+			[
+				"gfyde",
+				"index23-gfyDetach.haml"
+			],
+			[
+				"slick",
+				"assets/slick/slick.css"
+			],
+			[
+				"founda",
+				"assets/css/foundation.scss"
+			],
+			[
+				"grid",
+				"assets/css/foundation/components/_grid2.scss"
+			],
+			[
+				"mailchi",
+				"partials/mailchimp.haml"
+			],
+			[
+				"rubywork",
+				"rubyworkshop.rb"
+			],
+			[
+				"toprow",
+				"partials/toprow.haml"
+			],
+			[
+				"gric",
+				"assets/css/foundation/components/_grid.scss"
+			],
+			[
+				"styl7",
+				"assets/css/style7.scss"
+			],
+			[
+				"setting",
+				"assets/css/foundation/_settings.scss"
+			],
+			[
+				"app8",
+				"assets/js/app8.js"
+			],
+			[
+				"snapcss",
+				"assets/css/snapteststyle.scss"
+			],
+			[
+				"snap",
+				"assets/js/snaptest5ballparade.js"
+			],
+			[
+				"snaptest",
+				"snaptest.haml"
+			],
+			[
+				"human",
+				"humans.txt"
+			],
+			[
+				"humans",
+				"humans.txt"
+			],
+			[
+				"normali",
+				"assets/css/normalize.scss"
+			],
+			[
+				"variable",
+				"assets/css/foundation/_variables.scss"
+			],
+			[
+				"stack",
+				"index-stack-media.haml"
+			],
+			[
+				"media",
+				"index-beside-media.haml"
+			],
+			[
+				"styl",
+				"assets/css/style.scss"
+			],
+			[
+				"inde",
+				"index.haml"
+			],
+			[
+				"variabl",
+				"assets/css/foundation/_variables.scss"
+			],
+			[
+				"white",
+				"assets/js/starfield-lav-img2-white.js"
+			],
+			[
+				"kirbywhite",
+				"assets/js/starfield-lav-img2-kirby-white.js"
+			],
+			[
+				"kirby",
+				"assets/js/starfield-lav-img2-kirby.js"
+			],
+			[
+				"img2",
+				"assets/js/starfield-lav-img2.js"
+			],
+			[
+				"imggra",
+				"assets/js/starfield-lav-imggraft.js"
+			],
+			[
+				"starfie",
+				"assets/js/starfield.js"
+			],
+			[
+				"header",
+				"includes/_header.html"
+			],
+			[
+				"starsre",
+				"assets/js/starsjsreadme.txt"
+			],
+			[
+				"stars",
+				"assets/js/stars.js"
+			],
+			[
+				"side",
+				"soups/base/sidebar.snip"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true
+}
