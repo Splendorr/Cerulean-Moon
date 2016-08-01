@@ -582,6 +582,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"smooth",
+			"smoothing",
+			"font-family",
+			"arial_narrow",
+			"arial",
 			"makeGfySingle",
 			"arrayIn",
 			"video",
@@ -704,12 +709,7 @@
 			"abelogo",
 			"gfyswapsmall",
 			"gfyload",
-			"gfySwapTriple",
-			"arrayIndex",
-			"gfySingleMax",
-			"slidersmallgfy",
-			"slidersmallhead",
-			"slidersmallgfy"
+			"gfySwapTriple"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -866,7 +866,7 @@
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2145.0,
+						"translation.y": 2205.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -900,7 +900,7 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2646.0,
+						"translation.y": 2706.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -965,7 +965,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -980,8 +980,8 @@
 						"selection":
 						[
 							[
-								13114,
-								14037
+								14895,
+								14897
 							]
 						],
 						"settings":
@@ -992,7 +992,7 @@
 							"syntax": "Packages/Stylus/Stylus.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 10921.0,
+						"translation.y": 11459.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1009,8 +1009,8 @@
 						"selection":
 						[
 							[
-								1191,
-								1193
+								1530,
+								1531
 							]
 						],
 						"settings":
@@ -1020,7 +1020,7 @@
 							"syntax": "Packages/Stylus/Stylus.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 579.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
