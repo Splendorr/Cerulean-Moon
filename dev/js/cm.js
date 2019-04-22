@@ -1,7 +1,3 @@
-$(document).ready(function(){
-
-}); // end document.ready
-
 // YOU TUBE **********************************
 // Load the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
