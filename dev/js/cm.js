@@ -1,3 +1,15 @@
+// document.addEventListener('DOMContentLoaded', function () {
+// }); // end DOMContentLoaded / onReady
+
+window.addEventListener('load', function (event) {
+  pageLoad();
+  // console.log("All resources finished loading!");
+});
+
+function pageLoad() {
+  updateCopyright()
+}
+
 // YOU TUBE **********************************
 // Load the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
@@ -35,4 +47,11 @@ function onPlayerStateChange(event) {
         event.target.seekTo(0);
         event.target.playVideo();
     }
+}
+
+function updateCopyright() {
+  var currentdate = document.querySelector('.currentdate');
+  var year = new Date().getFullYear();
+  currentdate.textContent = year;
+  console.log('year: ', year);
 }
